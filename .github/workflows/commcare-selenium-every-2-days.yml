@@ -1,0 +1,223 @@
+name: commcare-selenium-hybrid
+
+on:
+  schedule:
+    # Deux fois par jour : 5h00 locale (09h00 UTC) et 13h00 locale (18h00 UTC)
+    - cron: "0 09 * * *"  # 5h00 America/Port-au-Prince
+    - cron: "0 18 * * *"  # 13h00 America/Port-au-Prince
+  workflow_dispatch:
+
+concurrency:
+  group: commcare-selenium-hybrid
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Port-au-Prince
+      COMMCARE_DOWNLOAD_DIR: ${{ github.workspace }}/data
+      EMAIL: ${{ secrets.EMAIL }}
+      PASSWORD: ${{ secrets.PASSWORD }}
+      COMMCARE_DOMAIN: ${{ secrets.COMMCARE_DOMAIN }}  # ex: caris-test
+      HEADLESS: "true"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Setup Google Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Setup Chromedriver
+        uses: nanasess/setup-chromedriver@v2
+
+      - name: Debug versions
+        run: |
+          google-chrome --version || true
+          chromedriver --version || true
+          python --version
+          git --version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          pip install -r requirements_py313.txt
+
+      - name: Prepare download directory
+        run: mkdir -p "$COMMCARE_DOWNLOAD_DIR"
+
+      - name: 🗑️ Supprimer les anciens XLSX du repository distant
+        run: |
+          echo "🗑️ Suppression des anciens fichiers XLSX du repository distant..."
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # S'assurer que le dossier data/ existe
+          mkdir -p data
+          
+          # Lister les fichiers XLSX existants
+          echo "📋 Fichiers XLSX actuels dans data/ :"
+          find data -type f -name "*.xlsx" -ls || echo "Aucun fichier XLSX trouvé."
+          
+          # Supprimer tous les fichiers .xlsx du dossier data/
+          XLSX_COUNT=$(find data -type f -name "*.xlsx" | wc -l)
+          if [ "$XLSX_COUNT" -gt 0 ]; then
+            echo "🗑️ Suppression de $XLSX_COUNT fichiers XLSX..."
+            
+            # Supprimer les fichiers et les ajouter spécifiquement à git
+            find data -type f -name "*.xlsx" -exec git rm {} \;
+            
+            # Créer un fichier .gitkeep pour préserver le dossier data/
+            echo "# Ce fichier préserve le dossier data/ dans Git" > data/.gitkeep
+            git add data/.gitkeep
+            
+            # Vérifier s'il y a des changements à commiter
+            if ! git diff --cached --quiet; then
+              echo "🗑️ Fichiers XLSX supprimés, création du commit..."
+              git commit -m "cleanup: suppression de $XLSX_COUNT fichiers XLSX avant nouveau téléchargement (run ${{ github.run_id }})"
+              
+              # Synchroniser avec le remote avant de pousser
+              echo "🔄 Synchronisation avec le repository distant..."
+              git pull --rebase origin main || {
+                echo "⚠️ Conflit lors du pull, tentative de push force..."
+                git push --force-with-lease origin HEAD:main
+              }
+              
+              # Pousser les changements
+              git push origin HEAD:main && echo "✅ Commit de suppression créé et poussé." || {
+                echo "❌ Échec du push, tentative avec force-with-lease..."
+                git push --force-with-lease origin HEAD:main
+              }
+            else
+              echo "⚠️ Aucun changement détecté après suppression."
+            fi
+          else
+            echo "ℹ️ Aucun fichier XLSX à supprimer du repository."
+          fi
+          
+          echo "✅ Nettoyage du repository distant terminé."
+
+      - name: 🧹 Clean previous XLSX before new run
+        run: |
+          echo "🧹 Suppression des anciens fichiers XLSX dans $COMMCARE_DOWNLOAD_DIR"
+          find "$COMMCARE_DOWNLOAD_DIR" -type f -name "*.xlsx" -delete || true
+          echo "✅ Nettoyage terminé. Contenu actuel :"
+          ls -lh "$COMMCARE_DOWNLOAD_DIR" || true
+
+      - name: 🧼 Clean old logs & JSON reports (keep 3 latest)
+        run: |
+          echo "🧼 Nettoyage des anciens fichiers .log et .json (sauf 3 plus récents)..."
+          LOGS_DIR="${{ github.workspace }}"
+          # Supprime tous sauf les 3 plus récents .log
+          ls -1t "$LOGS_DIR"/*.log 2>/dev/null | tail -n +4 | xargs -r rm -f
+          # Supprime tous sauf les 3 plus récents .json
+          ls -1t "$LOGS_DIR"/*.json 2>/dev/null | tail -n +4 | xargs -r rm -f
+          echo "✅ Logs conservés :"
+          ls -lh "$LOGS_DIR"/*.log 2>/dev/null || echo "Aucun log restant."
+          echo "✅ Stats conservées :"
+          ls -lh "$LOGS_DIR"/*.json 2>/dev/null || echo "Aucun JSON restant."
+
+      - name: Run Selenium downloader (headless via xvfb)
+        timeout-minutes: 120
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y xvfb
+          xvfb-run -a python commcare_downloader.py
+
+      # === Artifacts ===
+      - name: Upload XLSX artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: commcare-xlsx-${{ github.run_id }}
+          path: |
+            data/*.xlsx
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Upload logs & stats
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: commcare-logs-${{ github.run_id }}
+          path: |
+            commcare_downloader.log
+            stats.json
+          if-no-files-found: warn
+          retention-days: 90
+
+      - name: Debug fichiers avant commit
+        if: always()
+        shell: bash
+        run: |
+          echo "📁 Contenu de data/ :"
+          ls -lh data || true
+          echo "🌿 Branche :"
+          git branch || true
+          git status || true
+
+      - name: Commit & Push XLSX < 100MB
+        if: always()
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+
+          echo "🧮 Sélection des fichiers < 100MB à commiter…"
+          mapfile -d '' SMALL_FILES < <(find data -type f -name '*.xlsx' -size -100M -print0)
+
+          if [ ${#SMALL_FILES[@]} -eq 0 ]; then
+            echo "ℹ️ Aucun fichier < 100MB à commiter."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -f "${SMALL_FILES[@]}" || true
+
+          if git diff --cached --quiet; then
+            echo "ℹ️ Aucun changement indexé (rien à commiter)."
+            exit 0
+          fi
+
+          COMMIT_MSG="data: push fichiers <100MB (run ${{ github.run_id }})"
+          git commit -m "$COMMIT_MSG" || exit 0
+
+          DEFAULT_BRANCH="main"
+          
+          # Synchroniser avec le remote avant de pousser
+          echo "🔄 Synchronisation avec le repository distant..."
+          git pull --rebase origin "$DEFAULT_BRANCH" || {
+            echo "⚠️ Conflit lors du pull, résolution automatique..."
+            git status
+          }
+          
+          # Pousser les changements
+          git push origin HEAD:"$DEFAULT_BRANCH" && echo "✅ Fichiers poussés avec succès." || {
+            echo "❌ Échec du push normal, tentative avec force-with-lease..."
+            git push --force-with-lease origin HEAD:"$DEFAULT_BRANCH" || echo "❌ Push impossible même avec force-with-lease."
+          }
+
+      - name: Debug après commit/push
+        if: always()
+        shell: bash
+        run: |
+          echo "📁 Contenu de data/ après commit :"
+          ls -lh data || true
+          echo "🌿 État Git :"
+          git status || true
+
+          

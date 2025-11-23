@@ -1,0 +1,593 @@
+ddr,delivery_date,dob,dpa,expected_delivery_in_period,first_date_in_club_session_during_pregnancy,first_name,has_delivery_in_the_interval,has_pcr_test,has_session_during_pregnancy,has_valide_viral_load,has_viral_load_for_interval,has_viral_load_in_the_interval,is_abandoned,is_dead,is_pregnant_in_the_interval,last_date_in_club_session_during_pregnancy,last_name,patient_code,planned_place_of_birth_hospital_know_name,planned_place_of_birth_hospital_name,planned_place_of_birth_name,pregnancy_added_at,pregnancy_added_in_the_interval,termination_of_pregnancy,valide_viral_load_for_interval,viral_load_count,viral_load_date
+12/16/2024,,10/18/1986,9/28/2025,yes,5/29/2025,Nadeige,no,0,yes,no,no,no,0,0,yes,9/11/2025,Oxis,CAP/CMCD/ST01293,,,,11/14/2019 18:18,no,1,no,0,8/18/2023
+2/6/2025,,2/18/1996,11/13/2025,no,,Eunise,no,0,no,yes,no,no,0,0,yes,,Titarine,CAP/CMBV/ST03431,,,,10/2/2020 18:20,no,,yes,1560,7/11/2025
+12/8/2024,9/21/2025,4/14/1994,9/15/2025,yes,8/19/2025,Jean,yes,0,yes,yes,no,no,0,0,yes,9/11/2025,Manoucheka,CAP/CMCD/ST00533,,,,4/5/2021 14:53,no,,yes,3019,6/16/2025
+11/13/2024,8/18/2025,8/20/1982,8/20/2025,yes,5/22/2025,Patricia,yes,0,yes,yes,no,no,0,0,yes,8/19/2025,Dormelus,MON/POZS/ST00221,,,,8/3/2021 14:48,no,,yes,0,1/8/2025
+12/4/2024,9/16/2025,6/15/1988,9/11/2025,yes,12/6/2024,Mamoune,yes,0,yes,yes,no,no,0,0,yes,8/22/2025,Cherelon,PIL/HOEP/ST00621,,,,8/9/2021 15:55,no,,yes,839,12/16/2024
+12/23/2024,9/18/2025,1/15/1990,9/30/2025,yes,8/27/2025,Wideline/Islande,yes,0,yes,yes,yes,yes,0,0,yes,8/27/2025,Alcenat,PAP/NPFS/ST04149,,,,8/29/2023 17:39,no,,yes,39,7/14/2025
+4/24/2025,,4/24/1991,1/31/2026,no,,Néhémie,no,0,no,no,no,no,0,0,yes,,Saint-Louis,GON/SERV/ST00785,yes,Clinique H. Bastien,Hopital,2/28/2024 18:38,no,,no,1553,5/13/2024
+11/15/2024,9/1/2025,5/5/1996,8/22/2025,yes,11/20/2024,Eunide,yes,no,yes,no,no,no,0,0,yes,8/20/2025,Floreal,GON/CDIR/ST02302,yes,CDI Raboteau,Hopital,7/16/2024 17:30,no,,no,,
+1/28/2024,11/13/2024,2/29/1992,11/4/2025,no,,Alexandra,no,0,no,no,no,no,0,0,yes,,Fertil,PDP/HCAH/ST00983,,,Domicile,8/7/2024 19:51,no,,yes,839,7/22/2024
+11/15/2024,8/15/2025,2/12/1992,8/22/2025,yes,,Roselene,yes,0,no,no,no,no,0,0,yes,,Saint Julien,LIM/HOSJ/ST00642,,,,10/15/2024 18:26,no,,no,839,7/1/2024
+10/24/2024,,6/15/1990,7/24/2025,yes,10/24/2024,Manoucheca,no,0,yes,yes,no,no,0,0,yes,4/10/2025,Louis,GON/CSFA/ST01319,yes,Clinique Saint-François d’Assise,Hopital,10/25/2024 12:29,no,,yes,0,2/10/2025
+10/22/2024,5/3/2025,12/24/2001,7/15/2025,yes,4/25/2025,Chantale,no,yes,yes,no,no,no,0,0,yes,4/25/2025,Consève,MCH/DSCA/ST02196,yes,Dispensaire Sainte Claire d’Assise,Hopital,11/20/2024 14:21,no,,no,,
+10/4/2024,7/23/2025,9/7/1984,7/11/2025,no,11/29/2024,Rosita,yes,yes,yes,no,no,no,0,0,no,4/24/2025,Merisier,PAP/CMSP/ST00614,,,,12/6/2024 1:37,no,,yes,838,8/16/2024
+11/4/2024,,2/26/1982,8/11/2025,yes,,Wilna,no,0,no,no,no,no,0,0,yes,,St Jean,PAP/CMSP/ST00698,,,,12/6/2024 1:54,no,1,no,,
+10/2/2024,7/29/2025,2/10/1995,7/9/2025,no,4/10/2025,Pierre,yes,0,yes,no,no,no,0,0,no,4/10/2025,Sheilla,STM/CSPP/ST02486,,,,12/20/2024 15:20,no,,no,,
+10/16/2024,7/17/2025,2/28/2005,7/23/2025,yes,10/23/2024,Naidine,yes,no,yes,yes,no,no,0,0,yes,6/18/2025,Demester,CAP/CDSF/ST03305,,,,12/20/2024 15:42,no,,yes,7574,5/30/2025
+11/10/2024,8/2/2025,1/2/1998,8/17/2025,yes,5/22/2025,Limage,yes,0,yes,yes,no,no,0,0,yes,7/25/2025,Camitha,PAP/GCHO/ST06258,,,,1/10/2025 14:31,no,,yes,38,3/25/2025
+10/15/2024,,7/5/1991,7/22/2025,yes,,Judeline,no,0,no,no,no,no,1,0,yes,,Jacob,CAP/CMSO/ST02159,,,,1/10/2025 14:37,no,,no,,
+10/20/2024,,3/16/1995,7/27/2025,yes,,Degeline,no,0,no,no,no,no,0,0,yes,,Brutus,CAP/CMSO/ST03702,,,,1/10/2025 15:18,no,1,no,,
+12/6/2024,,1/3/1983,9/13/2025,yes,2/25/2025,Saintelia,no,0,yes,no,no,no,0,0,yes,4/22/2025,Fils-Aimé,PDP/CMEB/ST01775,,,,1/14/2025 19:45,no,,yes,838,10/4/2024
+11/7/2024,7/6/2025,6/30/1999,8/14/2025,yes,,Francia,no,no,no,no,no,no,0,0,yes,,Ceus,GRO/HAMG/ST02880,yes,Hôpital Alma Mater de Gros Morne,Hopital,1/16/2025 16:47,no,,no,1889,5/3/2024
+10/25/2024,,10/31/1991,8/7/2025,yes,10/29/2024,Johania,no,0,yes,yes,no,no,0,0,yes,4/11/2025,joseph,PAP/HOFP/ST01431,,,,1/20/2025 15:32,no,1,yes,839,12/10/2024
+11/12/2024,,5/6/1994,8/19/2025,yes,,Jesula,no,0,no,no,no,no,0,0,yes,,Joseph,CAP/CSLT/ST01202,,,,1/23/2025 19:26,no,,no,,
+10/4/2024,7/28/2025,3/28/1992,7/1/2025,no,3/13/2025,Mireille,yes,no,yes,no,no,no,0,0,no,3/13/2025,Jean,ENN/HTLO/ST00771,yes,Hopital Toussaint Louverture d'Ennery,Hopital,1/23/2025 20:45,no,,no,,
+11/6/2024,,1/15/1985,8/13/2025,yes,,Clediane,no,0,no,yes,no,no,0,0,yes,,Louis,CAP/NEWH/ST00161,,,,1/27/2025 20:40,no,1,yes,839,6/11/2025
+10/15/2024,,2/7/1994,7/22/2025,yes,,Katiana,no,0,no,no,no,no,0,0,yes,,Jean Louis,GON/CDIR/ST02413,yes,CDI Raboteau,Hopital,2/7/2025 15:32,no,,no,,
+11/23/2024,6/22/2025,3/23/1998,8/30/2025,yes,4/16/2025,Philomèse,no,no,yes,no,no,no,0,0,yes,4/16/2025,Destuma,GON/CDIR/ST02410,yes,CDI Raboteau,Hopital,2/7/2025 15:42,no,,no,,
+10/15/2024,4/4/2025,11/14/1999,7/2/2025,yes,,Daphnée,no,0,no,no,no,no,0,0,yes,,Duclera,GON/CDIR/ST02409,yes,CDI Raboteau,Hopital,2/7/2025 15:46,no,,no,,
+10/23/2024,,3/24/1988,7/30/2025,yes,11/14/2024,Bertha,no,,yes,yes,no,no,0,0,yes,4/16/2025,Corneille ,PDP/CMEB/ST05308,0,,,2/15/2025 11:17,no,,yes,115,11/14/2024
+10/15/2024,,8/24/1990,7/22/2025,yes,,Lovelie,no,0,no,no,no,no,0,0,yes,,Charles,FOS/STMC/ST00846,yes,Centre Lakay de Saint- Marc,Hopital,2/19/2025 17:12,no,,no,,
+10/26/2024,,12/27/1999,8/2/2025,yes,4/8/2025,Elmitha,no,0,yes,no,no,no,0,0,yes,4/8/2025,Youte,GON/CSAR/ST00611,yes,Centre de Sante Anse Rouge,Hopital,2/20/2025 17:55,no,,no,,
+11/3/2024,8/4/2025,10/15/2003,8/10/2025,yes,6/10/2025,Dialanda,yes,0,yes,no,no,no,0,0,yes,7/10/2025,Francois,CAP/CMCD/ST01907,,,,2/21/2025 14:39,no,,no,,
+11/8/2024,8/2/2025,1/8/1984,8/15/2025,yes,,Clermicia,yes,0,no,no,no,no,0,0,yes,,Docteur,CAP/CMCD/ST01904,,,,2/21/2025 14:46,no,,no,,
+11/27/2024,,3/2/1990,9/4/2025,yes,11/29/2024,Pierre ,no,,yes,no,no,no,0,0,yes,4/25/2025,Florence,PAP/CSPL/ST00478,0,,,2/21/2025 20:11,no,,no,,
+12/2/2024,,6/1/2003,9/9/2025,yes,,Wisline,no,0,no,no,no,no,1,0,yes,,Mondesir,CAP/CMBV/ST03712,,,,2/21/2025 20:12,no,1,no,,
+11/28/2024,9/11/2025,1/16/1992,9/4/2025,yes,,Sonia,yes,0,no,yes,no,no,0,0,yes,,Bien-Aime,CAP/CMBV/ST03684,,,,2/21/2025 20:51,no,,yes,839,7/3/2025
+11/30/2024,,4/23/1987,9/6/2025,yes,,Paulaine,no,0,no,no,no,no,0,0,yes,,Etienne,CAP/CMBV/ST01177,,,,2/24/2025 17:00,no,1,no,,
+7/1/2024,7/19/2025,5/16/1987,8/23/2025,yes,,Denise,yes,no,no,no,no,no,0,0,yes,,Brenord,SMA/CSSM/ST01251,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,2/25/2025 16:41,no,,no,,
+11/15/2024,,2/1/2002,8/22/2025,yes,,Chandeline,no,0,no,no,no,no,0,0,yes,,Aristilde,GON/CDIR/ST02433,yes,CDI Raboteau,Hopital,2/25/2025 16:45,no,,no,,
+10/15/2024,,7/15/1982,7/22/2025,yes,3/13/2025,Isemane,no,,yes,yes,no,no,0,0,yes,3/13/2025,Acelus,GON/CSFA/ST01200,yes,Clinique Saint-François d’Assise,Hopital,2/25/2025 16:55,no,,yes,0,5/31/2025
+10/26/2024,8/5/2025,11/7/1997,8/2/2025,yes,6/24/2025, Belette,yes,0,yes,no,no,no,0,0,yes,7/31/2025,Milien,PAP/FONP/ST02450,,,,2/25/2025 17:07,no,,no,,
+12/23/2024,,1/3/1995,9/30/2025,yes,,Louis,no,0,no,no,no,no,0,0,yes,,Manèse,PDP/CMEB/ST05880,,,,2/25/2025 20:09,no,,no,,
+12/15/2024,7/6/2025,9/16/1991,9/22/2025,yes,,Thedilia,no,no,no,no,no,no,0,0,yes,,Thiolence,CAP/CDSF/ST02009,,,,2/25/2025 21:02,no,,no,,
+12/9/2024,,1/1/1994,9/16/2025,yes,5/28/2025,Darlene,no,0,yes,no,no,no,1,0,yes,5/28/2025,Desir,PAP/FONP/ST01963,,,,2/26/2025 14:47,no,,no,,
+10/29/2024,,7/20/1993,8/5/2025,yes,,Emmanuolitha,no,0,no,yes,yes,yes,0,0,yes,,Surin,CAP/CDSF/ST03488,,,,2/26/2025 15:03,no,,yes,838,7/31/2025
+11/15/2024,8/30/2025,9/29/2002,8/22/2025,yes,3/28/2025,Schama,yes,no,yes,yes,no,no,0,0,yes,8/20/2025,Pierre,CAP/CDSF/ST03484,,,,2/26/2025 15:15,no,,yes,3893,4/23/2025
+1/10/2025,9/9/2025,9/27/1992,10/17/2025,no,,Joranie,yes,no,no,yes,yes,yes,0,0,yes,,Celestin,CAP/CDSF/ST03489,,,,2/26/2025 15:16,no,,yes,3384,7/28/2025
+11/5/2024,7/25/2025,8/24/1983,8/12/2025,yes,5/20/2025,Edeline,yes,no,yes,yes,yes,yes,0,0,yes,7/17/2025,Benjamin,CAP/CDSF/ST03492,,,,2/26/2025 15:23,no,,yes,4497,8/30/2025
+11/17/2024,,7/8/1993,8/24/2025,yes,6/18/2025,Raymonde,no,,yes,yes,yes,yes,0,0,yes,7/17/2025,Charles,CAP/CDSF/ST03491,0,,,2/26/2025 15:32,no,,yes,4497,8/30/2025
+10/25/2024,8/8/2025,4/5/1983,8/1/2025,yes,,Louise,yes,yes,no,yes,no,no,0,0,yes,,Osias,LIM/HOSJ/ST01009,,,,2/26/2025 20:28,no,,yes,838,2/16/2025
+1/9/2025,,1/12/1999,11/16/2025,no,,Hend-fain,no,0,no,yes,yes,yes,0,0,yes,,Petit-Homme,CAP/NEWH/ST00557,,,,2/28/2025 14:17,no,,yes,839,7/27/2025
+1/9/2025,,7/2/1992,10/16/2025,no,,Minouche,no,,no,yes,no,no,0,0,yes,,Alce,CAP/NEWH/ST00312,0,,,2/28/2025 14:37,no,,yes,839,6/28/2025
+10/28/2024,8/6/2025,12/14/1989,8/4/2025,yes,,Moselene,yes,yes,no,yes,no,no,0,0,yes,,Severe,PIG/HOBP/ST01709,,,,2/28/2025 14:58,no,,yes,1364,12/4/2024
+10/15/2024,7/22/2025,2/7/1984,7/22/2025,yes,,Roberte,yes,0,no,yes,no,no,0,0,yes,,Merizier,PAP/HOCH/ST00461,,,,3/1/2025 0:53,no,,yes,839,2/21/2025
+10/15/2024,,8/11/1987,7/22/2025,yes,,Neltha,no,0,no,yes,no,no,0,0,yes,,Aurélien,PAP/HFSC/ST04788,,,,3/1/2025 2:08,no,1,yes,13370,1/16/2025
+10/21/2024,7/4/2025,11/22/1993,7/28/2025,yes,5/22/2025,Jodelene,no,yes,yes,yes,no,no,0,0,yes,7/22/2025,Pépé,PAP/HFSC/ST04498,,,,3/1/2025 2:31,no,,yes,39,6/30/2025
+12/15/2024,9/18/2025,1/10/1990,9/22/2025,yes,7/25/2025,Yvelande,yes,0,yes,yes,no,no,0,0,yes,9/19/2025,Alcenat,PAP/GCHO/ST08092,,,,3/1/2025 2:43,no,,yes,40,2/3/2025
+12/13/2024,,10/11/1996,9/20/2025,yes,1/8/2025,Medjine,no,0,yes,no,no,no,0,0,yes,9/19/2025,Charles,MON/POZS/ST00901,,,,3/6/2025 23:10,no,,no,0,5/31/2024
+1/10/2025,,9/26/2004,10/17/2025,no,3/25/2025,Ruth,no,,yes,no,no,no,0,0,yes,9/26/2025,Lapointe,PAP/GCHO/ST01925,0,,,3/7/2025 13:34,no,,no,,
+12/23/2024,9/7/2025,1/27/1998,9/17/2025,yes,4/2/2025,Nivencia,yes,no,yes,no,no,no,0,0,yes,8/20/2025,Cesar,GON/CSKS/ST03116,yes,CS K-Soleil - Gonaïves,Hopital,3/7/2025 15:07,no,,no,,
+11/18/2024,8/21/2025,3/26/1994,8/25/2025,yes,5/23/2025,Rosenie,yes,no,yes,no,no,no,0,0,yes,7/18/2025,Reneval,PIG/CSSR/ST01006,,,,3/7/2025 15:32,no,,no,,
+12/9/2024,,7/1/1997,9/16/2025,yes,,Claudia,no,0,no,no,no,no,0,0,yes,,Ysma,PAP/FONP/ST02240,,,,3/7/2025 19:30,no,1,no,,
+10/20/2024,,12/5/2002,7/27/2025,yes,,Shanaika,no,0,no,no,no,no,0,0,yes,,Souvenir,PAP/FONP/ST02345,,,,3/7/2025 19:37,no,,yes,839,9/27/2024
+11/1/2024,,11/10/1993,8/8/2025,yes,11/13/2024,Marce,no,0,yes,yes,no,no,0,0,yes,4/23/2025,Wadna,PAP/HAHD/ST01153,,,,3/10/2025 14:34,no,,yes,40,1/15/2025
+11/23/2024,,4/25/1998,8/30/2025,yes,,Monfleury,no,,no,no,no,no,0,0,yes,,Dieusna,PAP/HOFP/ST01953,0,,,3/10/2025 15:39,no,,no,,
+11/28/2024,,9/9/1997,9/5/2025,yes,,Germain,no,0,no,no,no,no,0,0,yes,,Chandeline,PAP/HOFP/ST01955,,,,3/10/2025 15:44,no,,no,,
+12/10/2024,,1/1/2000,9/17/2025,yes,1/8/2025,JOSETTE,no,0,yes,no,no,no,0,0,yes,8/19/2025,CASIMIR,MON/POZS/ST00064,,,,3/10/2025 17:28,no,,no,839,3/22/2022
+10/16/2024,4/1/2025,6/23/2006,6/16/2025,yes,4/11/2025,Marceline,no,yes,yes,no,no,no,0,0,yes,4/11/2025,Dorvil,PIG/CSSR/ST01001,,,,3/10/2025 19:24,no,,no,,
+12/22/2024,,1/28/1990,9/29/2025,yes,,Odanise,no,0,no,no,no,no,0,0,yes,,Jean,PDP/CMEB/ST05893,,,,3/11/2025 13:04,no,,no,,
+11/15/2024,,8/15/1987,8/22/2025,yes,,Thermo,no,0,no,no,no,no,1,0,yes,,Ritha,FDN/CBET/ST04430,,,,3/11/2025 14:56,no,,no,838,10/16/2023
+11/10/2024,6/1/2025,7/1/1985,7/17/2025,yes,11/6/2024,Jesula,no,no,yes,yes,no,no,0,1,yes,4/2/2025,Exantus,GON/CSTB/ST00420,yes,Centre de Sante Terre Blanche,Hopital,3/11/2025 16:24,no,,yes,28679,2/13/2025
+10/22/2024,,7/2/1998,7/15/2025,yes,4/3/2025,Alcinette,no,,yes,no,no,no,0,0,yes,4/3/2025,Casimir,MCH/HCHM/ST02047,yes,Hôpital Claire Heureuse,Hopital,3/11/2025 17:08,no,,no,838,7/23/2021
+11/15/2024,,4/15/1989,8/22/2025,yes,4/17/2025,VENISE ,no,0,yes,no,no,no,0,0,yes,4/17/2025,DESTIRA,GRO/HAMG/ST01336,yes,Hôpital Alma Mater de Gros Morne,Hopital,3/11/2025 18:33,no,1,no,838,6/3/2024
+10/15/2024,,7/27/2007,7/22/2025,yes,,Sadeline,no,0,no,no,no,no,0,0,yes,,Guillaume,GON/HCRE/ST00585,yes,Hôpital Communautaire de Reference de l'Estere,Hopital,3/11/2025 19:05,no,,no,0,
+11/15/2024,,4/13/2005,8/22/2025,yes,,Djouny,no,0,no,no,no,no,0,0,yes,,Cadet,PEG/HNDP/ST02801,,,,3/12/2025 14:15,no,,no,,
+11/15/2024,,9/20/2003,8/22/2025,yes,,Richard,no,0,no,no,no,no,0,0,yes,,Miloura,PEG/HNDP/ST03705,,,,3/12/2025 17:42,no,,no,,
+3/20/2024,12/25/2024,8/27/1999,12/27/2025,no,,Yolna,no,yes,no,yes,no,no,0,0,yes,,Eugène,PDP/HCAH/ST00994,,,Domicile,3/12/2025 19:00,no,,yes,0,2/16/2025
+12/21/2024,,5/18/1990,9/28/2025,yes,,Edeline,no,0,no,no,no,no,1,0,yes,,Pierre,CAP/CSLT/ST00064,,,,3/13/2025 13:34,no,,no,,
+12/2/2024,9/3/2025,3/15/1997,9/9/2025,yes,,Kalionise,yes,no,no,yes,no,no,0,0,yes,,Dorival,GRO/HAMG/ST03697,yes,Hôpital Alma Mater de Gros Morne,Hopital,3/13/2025 14:50,no,,yes,0,7/8/2025
+12/20/2024,9/30/2025,12/2/2006,9/27/2025,yes,,Estarlina,yes,no,no,yes,no,no,0,0,yes,,Ernst,GRO/HAMG/ST03699,yes,Hôpital Alma Mater de Gros Morne,Hopital,3/13/2025 15:05,no,,yes,0,7/9/2025
+11/15/2024,9/7/2025,8/7/2000,8/21/2025,yes,4/2/2025,Adeline,yes,no,yes,yes,no,no,0,0,yes,8/20/2025,Janvier,GON/CSKS/ST03115,yes,CS K-Soleil - Gonaïves,Hopital,3/14/2025 15:42,no,,yes,300,5/27/2025
+11/1/2024,7/25/2025,3/9/1985,8/8/2025,yes,11/8/2024,CYNTHIA,yes,0,yes,yes,no,no,0,0,yes,7/29/2025,JUNIUS,PAP/NPFS/ST03221,,,,3/14/2025 16:10,no,,yes,39,1/6/2025
+10/17/2024,6/27/2025,6/27/2002,7/24/2025,yes,,Juliette( Gessica),no,yes,no,no,no,no,0,0,yes,,Joseph,CAP/CALT/ST02830,,,,3/14/2025 18:16,no,,no,,
+12/5/2024,,11/3/1995,9/12/2025,yes,,Jennifer,no,0,no,yes,no,no,1,0,yes,,Pierre,CAP/CALT/ST02825,,,,3/14/2025 19:12,no,,yes,2806,4/14/2025
+1/15/2024,9/23/2025,1/7/2000,10/22/2025,no,,Brunot,yes,0,no,no,no,no,0,0,yes,,Richecarline,CAP/SECH/ST00846,,,,3/18/2025 14:01,no,,no,,
+12/15/2024,,4/21/2000,9/22/2025,yes,,Milfort,no,0,no,yes,yes,yes,0,0,yes,,Joviana,CAP/SECH/ST00845,,,,3/18/2025 14:20,no,,yes,839,7/25/2025
+1/23/2025,,11/9/1989,10/30/2025,no,,Marie Yolande,no,0,no,no,no,no,0,0,yes,,Méronvil,PDP/CMEB/ST05896,,,,3/18/2025 14:50,no,,no,,
+10/12/2024,7/13/2025,1/20/1993,7/19/2025,yes,,Evena,no,no,no,no,no,no,0,0,yes,,Michel,GON/SERV/ST00251,yes,Clinique H. Bastien,Hopital,3/18/2025 16:42,no,,no,,
+11/23/2024,,7/7/1989,7/30/2025,yes,,Aline,no,0,no,no,no,no,0,0,yes,,Joseph,PDP/HCAH/ST01028,,,,3/20/2025 14:02,no,,no,,
+12/23/2024,9/16/2025,3/22/2003,9/29/2025,yes,,Fara Sindie,yes,no,no,yes,yes,yes,0,0,yes,,Thélémarque,ENN/HTLO/ST00782,yes,Hopital Toussaint Louverture d'Ennery,Hopital,3/20/2025 18:09,no,,yes,0,8/6/2025
+12/11/2024,,9/15/1991,9/2/2025,yes,,Eliana,no,0,no,yes,no,no,0,0,yes,,Ormilus,MCH/DSCA/ST02230,yes,Dispensaire Sainte Claire d’Assise,Hopital,3/20/2025 18:29,no,,yes,0,6/4/2025
+10/15/2024,7/16/2025,8/12/1987,7/22/2025,yes,,Dieulicienne,yes,yes,no,no,no,no,0,0,yes,,Jean Baptiste,MCH/DSCA/ST02030,yes,Dispensaire Sainte Claire d’Assise,Hopital,3/20/2025 18:36,no,,no,,
+12/23/2024,3/6/2025,12/24/1985,9/30/2025,yes,1/16/2025,Lusana (Sann),no,0,yes,no,no,no,0,0,yes,4/23/2025,Justilien,PDP/CMEB/ST04326,yes,Centre Medical Beraca,Hopital,3/21/2025 15:22,no,1,no,838,6/21/2024
+11/11/2024,8/13/2025,11/23/1982,8/18/2025,yes,5/29/2025,Louisanne,yes,0,yes,no,no,no,0,0,yes,5/29/2025,Siborne,CAP/CMBV/ST03867,,,,3/21/2025 18:22,no,,yes,839,9/25/2024
+1/15/2025,,6/22/1999,10/22/2025,no,,Chrisberline,no,0,no,no,no,no,1,0,yes,,Cossier,CAP/CMBV/ST04062,,,,3/21/2025 18:39,no,,no,,
+1/17/2025,10/1/2025,1/2/1994,10/24/2025,no,5/20/2025,Christiana,yes,no,yes,yes,no,no,0,0,yes,9/17/2025,Jean,CAP/CDSF/ST02651,,,,3/21/2025 19:31,no,,yes,2567,6/27/2025
+11/20/2024,8/17/2025,3/14/1993,8/27/2025,yes,,Jean-Bette,yes,yes,no,no,no,no,0,0,yes,,Aristine,CAP/CDSF/ST03497,,,,3/21/2025 19:43,no,,no,,
+11/15/2024,,6/24/1996,8/22/2025,yes,5/28/2025,Zephyrin,no,,yes,yes,no,no,0,0,yes,5/28/2025,Widelande,CAP/SECH/ST00837,0,,Hopital,3/25/2025 13:10,no,,yes,6284,7/7/2025
+11/1/2024,9/1/2025,3/5/1988,8/1/2025,yes,5/22/2025,Autisme,yes,0,yes,no,no,no,0,0,yes,7/22/2025,Madeleine,PAP/HFSC/ST04818,,,,3/25/2025 13:57,no,,no,,
+1/1/2025,,12/8/2000,10/8/2025,yes,5/22/2025,Desrosiers,no,,yes,yes,yes,yes,0,0,yes,9/17/2025,Rose Nerlineda,PAP/HFSC/ST04833,0,,,3/25/2025 14:08,no,,yes,40,8/22/2025
+10/28/2024,,12/31/2004,8/4/2025,yes,,Daphney,no,0,no,no,no,no,0,0,yes,,Pierre,PAP/OGRE/ST00304,,,,3/25/2025 18:06,no,,no,,
+10/8/2024,,11/9/1994,2/14/2025,yes,,Sonia,no,0,no,no,no,no,0,0,yes,,Daverne,PAP/OGRE/ST00288,,,,3/25/2025 18:17,no,,no,,
+1/24/2025,,9/16/1989,10/1/2025,yes,3/25/2025,Danise,no,0,yes,no,no,no,0,0,yes,4/22/2025,Myrtil,PDP/CMEB/ST05887,,,,3/25/2025 18:37,no,,no,,
+11/15/2024,,2/22/1992,8/22/2025,yes,4/8/2025,Nostha,no,0,yes,no,no,no,0,0,yes,4/8/2025,Donassaint,GON/CSAR/ST00728,yes,Centre de Sante Anse Rouge,Hopital,3/26/2025 15:26,no,,no,,
+1/23/2025,,12/25/1993,10/1/2025,yes,,Nelta,no,0,no,no,no,no,0,0,yes,,Joseph,PDP/CMEB/ST05899,,,,3/26/2025 17:19,no,,no,,
+1/23/2025,,12/24/1984,10/30/2025,no,4/10/2025,Willienne ,no,0,yes,no,no,no,0,0,yes,9/19/2025,Exantus,STM/CSPP/ST02202,,,,3/27/2025 14:02,no,,no,,
+11/13/2024,8/26/2025,4/23/1981,8/20/2025,yes,4/10/2025,Mireille,yes,0,yes,no,no,no,0,0,yes,8/19/2025,Rintus,STM/CSPP/ST01701,,,,3/27/2025 14:05,no,,no,,
+10/8/2024,6/5/2025,4/8/1978,6/15/2025,yes,4/9/2025,Roselaure,no,0,yes,no,no,no,0,0,yes,6/12/2025,Depeste,MON/POZS/ST01120,,,,3/27/2025 14:10,no,,no,0,
+10/15/2024,,12/22/1992,7/22/2025,yes,,Delcina,no,,no,no,no,no,0,0,yes,,Jean,GON/CDIR/ST02443,yes,CDI Raboteau,Hopital,3/27/2025 15:56,no,,no,,
+12/25/2024,,10/22/1998,10/1/2025,yes,5/20/2025,Cossier,no,,yes,yes,yes,yes,0,0,yes,7/17/2025,Chrisberline,CAP/SECH/ST00849,0,,Hopital,3/27/2025 17:30,no,,yes,839,9/1/2025
+12/15/2024,,1/6/1995,9/22/2025,yes,,Fabie,no,0,no,no,no,no,0,0,yes,,Rechard,GON/CDIR/ST02446,yes,CDI Raboteau,Hopital,3/27/2025 18:23,no,,no,,
+1/18/2025,,8/10/1995,10/25/2025,no,,Ketelove,no,0,no,no,no,no,0,0,yes,,Jean Noel,GON/CDIR/ST02452,yes,CDI Raboteau,Hopital,3/27/2025 18:28,no,1,no,,
+1/23/2025,,11/19/1994,10/30/2025,no,,Silencard,no,0,no,no,no,no,0,0,yes,,Pierre,PDP/HBSB/ST00914,,,,3/28/2025 12:32,no,,no,,
+11/30/2024,,3/26/1996,9/6/2025,yes,,Valéry,no,,no,yes,no,no,0,0,yes,,Justilien,PDP/HBSB/ST00876,0,,,3/28/2025 12:49,no,,yes,0,3/5/2025
+11/20/2024,3/12/2025,9/22/1982,8/27/2025,yes,,Marlène,no,no,no,yes,no,no,0,0,yes,,Jean,PDP/HBSB/ST00877,yes,Hopital Bon Samaritain de Bassin Bleu,Hopital,3/28/2025 13:01,no,1,yes,0,2/12/2025
+11/20/2024,9/11/2025,7/25/1997,8/27/2025,yes,3/18/2025,Luckensia ( Sandrine),yes,no,yes,yes,no,no,0,0,yes,8/26/2025,Exil,CAP/HSCM/ST04212,,,,3/28/2025 13:27,no,,yes,838,3/3/2025
+2/3/2025,,3/1/1998,11/10/2025,no,,Wislande,no,0,no,no,no,no,0,0,yes,,Eustache,CAP/HSCM/ST04977,,,,3/28/2025 13:37,no,1,no,,
+1/15/2025,9/17/2025,6/10/1990,10/22/2025,no,7/22/2025,Jn Francois,yes,no,yes,yes,no,no,0,0,yes,9/23/2025,Myrlande,CAP/HSCM/ST03346,,,,3/28/2025 13:42,no,,yes,838,1/13/2025
+12/8/2024,10/7/2025,6/15/1990,9/15/2025,yes,6/24/2025,Maylove,yes,no,yes,no,no,no,0,0,yes,8/26/2025,Damas,SMA/CSSM/ST01260,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,3/28/2025 15:23,no,,no,,
+12/23/2024,,3/11/2005,9/30/2025,yes,1/15/2025,Wilda,no,0,yes,yes,no,no,0,0,yes,4/22/2025,Gaudin,PDP/CMEB/ST03708,,,,3/28/2025 15:44,no,,yes,1300,3/19/2025
+3/27/2025,,6/15/1990,9/22/2025,yes,,Roseline,no,,no,no,no,no,0,0,yes,,Daut,SMA/CSSM/ST01075,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,3/28/2025 16:06,no,,no,,
+10/15/2024,,6/18/1992,7/22/2025,yes,6/24/2025,Antonia,no,,yes,no,no,no,0,0,yes,6/24/2025,Charles,SMA/CSSM/ST01254,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,3/28/2025 16:10,no,,no,,
+10/10/2024,5/26/2025,8/21/1995,7/17/2025,yes,,Frontal,no,no,no,no,no,no,0,0,yes,,Claudiana,PAP/FONP/ST02443,,,,3/29/2025 17:06,no,,no,,
+12/15/2024,8/29/2025,5/1/1984,9/22/2025,yes,4/4/2025,Renise,yes,no,yes,no,no,no,0,0,yes,4/4/2025,Apolon,MOR/CMSM/ST00123,,,,3/31/2025 18:41,no,,no,,
+11/20/2024,8/17/2025,2/26/2000,8/27/2025,yes,,Luciamene,yes,no,no,no,no,no,0,0,yes,,Compere,PIG/HOBP/ST00254,,,,4/1/2025 15:40,no,,no,0,1/10/2024
+11/15/2024,9/10/2025,3/4/1987,8/22/2025,yes,,Myriam,yes,no,no,no,no,no,0,0,yes,,Cherenfant,CAP/HSCM/ST04866,,,,4/1/2025 18:29,no,,yes,838,9/26/2024
+12/16/2024,9/27/2025,9/19/1985,9/22/2025,yes,,Danie,yes,no,no,yes,no,no,0,0,yes,,St-Hilaire,CAP/HSCM/ST02528,,,,4/1/2025 18:35,no,,yes,838,12/16/2024
+11/17/2024,8/29/2025,6/6/2006,8/23/2025,yes,,virgile,yes,0,no,yes,yes,yes,0,0,yes,,Ankara,CAP/SECH/ST00843,0,,Hopital,4/2/2025 13:04,no,,yes,16997,7/25/2025
+10/19/2024,7/13/2025,1/1/2000,7/26/2025,yes,6/20/2025,Woochida ,no,yes,yes,no,no,no,0,0,yes,7/18/2025,Dorval,PIG/HOBP/ST00837,,,,4/2/2025 13:43,no,,no,0,9/6/2021
+11/13/2024,,1/15/1999,8/22/2025,yes,11/14/2024,Isemene,no,,yes,no,no,no,0,0,yes,3/13/2025,Dely,MCH/HCHM/ST01577,yes,Hôpital Claire Heureuse,Hopital,4/2/2025 14:52,no,,no,838,2/5/2021
+11/23/2024,,6/14/2005,8/30/2025,yes,,Jose Naika,no,0,no,no,no,no,0,0,yes,,Léonis,PDP/CMEB/ST05911,,,,4/3/2025 12:39,no,,no,,
+10/10/2024,,10/11/1992,7/17/2025,yes,,Claudia,no,0,no,no,no,no,0,0,yes,,Begond,CAP/SECH/ST00850,,,,4/3/2025 16:06,no,1,no,,
+11/10/2024,7/1/2025,5/24/1985,8/17/2025,yes,7/24/2025,Altenaza,no,yes,yes,no,no,no,0,0,yes,7/24/2025,Marie-France,PAP/CMSP/ST02013,,,,4/3/2025 17:55,no,,no,,
+1/23/2025,,4/12/1998,10/30/2025,no,8/26/2025,Leon,no,0,yes,yes,no,no,0,0,yes,8/26/2025,Johane,PAP/CMSP/ST02006,,,,4/3/2025 18:01,no,,yes,2491,5/26/2025
+11/15/2024,8/19/2025,2/26/2000,8/22/2025,yes,,Guerin,yes,0,no,no,no,no,0,0,yes,,Shilove,PAP/CMSP/ST02010,,,,4/3/2025 18:10,no,,no,,
+2/28/2025,,7/22/1988,12/7/2025,no,8/26/2025,Toussait,no,0,yes,yes,no,no,0,0,yes,8/26/2025,Benette,PAP/CMSP/ST02008,,,,4/3/2025 18:17,no,,yes,6379,6/9/2025
+12/15/2024,,6/20/1990,9/21/2025,yes,, Michelene,no,0,no,no,no,no,0,0,yes,,Villard,GON/CSKS/ST03124,yes,CS K-Soleil - Gonaïves,Hopital,4/8/2025 14:43,no,,no,,
+1/16/2025,8/12/2025,7/6/1998,10/23/2025,no,,Roselanda,yes,no,no,no,no,no,0,0,yes,,Pierre,GON/CSKS/ST03128,yes,CS K-Soleil - Gonaïves,Hopital,4/8/2025 16:51,no,,no,0,
+9/7/2024,9/5/2025,8/6/2004,6/14/2025,no,, Lourdie ,yes,no,no,no,no,no,0,0,no,,Pierre,CAP/CALT/ST02843,,,,4/9/2025 18:05,no,,no,,
+11/17/2024,,1/31/1985,8/24/2025,yes,,cantave,no,,no,no,no,no,0,0,yes,,Evenard,PAP/OGRE/ST00305,0,,,4/9/2025 18:07,no,,no,,
+1/22/2025,,10/1/1992,10/29/2025,no,,Marie Carme,no,0,no,yes,yes,yes,0,0,yes,,Etienne,CAP/CALT/ST01819,,,,4/9/2025 18:24,no,,yes,0,7/17/2025
+1/20/2025,,3/17/1994,10/27/2025,no,,Rose Carline,no,0,no,yes,yes,yes,0,0,yes,,Milor,CAP/CALT/ST02117,,,,4/9/2025 18:36,no,,yes,12047,7/25/2025
+11/10/2024,8/20/2025,9/9/1994,8/17/2025,yes,5/28/2025,Annalouise,yes,no,yes,yes,yes,yes,0,0,yes,7/24/2025,Elvetus(chrismene),CAP/CALT/ST02854,,,,4/9/2025 19:21,no,,yes,838,8/6/2025
+1/26/2025,,3/14/1990,11/3/2025,no,,Philomise,no,0,no,yes,no,no,0,0,yes,,Etienne,CAP/CALT/ST00550,,,,4/9/2025 19:45,no,,yes,838,2/26/2025
+12/26/2024,,5/29/1990,10/3/2025,yes,,Marie-Claude,no,0,no,no,no,no,0,0,yes,,Meus,CAP/CMCD/ST01913,,,,4/10/2025 12:37,no,,no,,
+11/15/2024,7/29/2025,6/8/1987,8/22/2025,yes,,Eva,yes,yes,no,no,no,no,0,0,yes,,Babytchna,CAP/CMCD/ST01917,,,,4/10/2025 12:43,no,,no,,
+12/15/2024,,5/2/1984,9/22/2025,yes,5/29/2025,Roseline,no,,yes,no,no,no,0,0,yes,9/11/2025,Olivier,CAP/CMCD/ST01918,0,,,4/10/2025 12:47,no,,no,,
+12/13/2024,9/18/2025,7/1/1993,9/20/2025,yes,4/24/2025,Yvelande,yes,0,yes,yes,yes,yes,0,0,yes,4/24/2025,Alcema,PAP/CMSP/ST00904,,,,4/10/2025 14:38,no,,yes,838,8/18/2025
+12/16/2024,,9/18/2001,9/23/2025,yes,,St Cyr,no,0,no,yes,no,no,0,0,yes,, Loody Woodeline,PAP/GCHO/ST0367,,,,4/10/2025 15:36,no,,yes,38,5/9/2025
+12/15/2024,,1/28/1993,9/22/2025,yes,,Mariline,no,0,no,no,no,no,1,0,yes,,Francois,PAP/GCHO/ST08931,,,,4/10/2025 15:43,no,,no,,
+11/7/2024,,2/23/1987,8/14/2025,yes,5/30/2025,Madona,no,,yes,yes,yes,yes,0,0,yes,7/30/2025,Pierre,PAP/HSFS/ST01163,0,,,4/10/2025 16:11,no,,yes,839,8/6/2025
+1/11/2025,,11/7/1988,10/18/2025,no,5/30/2025,Sophia,no,,yes,yes,no,no,0,0,yes,8/28/2025,Bellande,PAP/HSFS/ST00157,0,,,4/10/2025 16:16,no,,yes,839,6/8/2025
+1/10/2025,,2/26/2004,10/17/2025,no,5/20/2025,Yolanda,no,,yes,yes,yes,yes,0,0,yes,6/18/2025,Seide,CAP/CDSF/ST03502,0,,,4/11/2025 17:39,no,,yes,2629,7/31/2025
+12/15/2024,9/26/2025,5/3/2003,9/22/2025,yes,9/17/2025,Israella,yes,no,yes,no,no,no,0,0,yes,9/17/2025,Beaufosse,CAP/CDSF/ST03503,,,,4/11/2025 17:43,no,,no,,
+2/5/2025,,3/18/1990,11/12/2025,no,,Sandra,no,0,no,no,no,no,0,0,yes,,Estime,CAP/CDSF/ST02040,,,,4/11/2025 17:48,no,1,yes,838,10/8/2024
+12/3/2024,,11/25/2005,9/10/2025,yes,,Roselore,no,0,no,yes,no,no,0,0,yes,,Jean,CAP/CMBV/ST04065,,,,4/11/2025 17:53,no,,yes,839,7/3/2025
+1/13/2025,,5/21/1989,10/20/2025,no,3/19/2025,St Juste,no,0,yes,yes,no,no,0,0,yes,9/25/2025,Gaelle,CAP/CMBV/ST03584,,,,4/11/2025 17:56,no,,yes,839,1/8/2025
+10/26/2024,6/9/2025,11/13/1990,8/3/2025,yes,,Lynda,no,0,no,yes,no,no,0,0,yes,,Pierre,CAP/CMBV/ST03170,,,,4/11/2025 18:05,no,,yes,839,7/3/2025
+1/23/2025,,7/26/2000,10/30/2025,no,4/22/2025,Dieula,no,,yes,yes,no,no,0,0,yes,4/22/2025,Paul,PDP/CMEB/ST04588,0,,,4/14/2025 14:36,no,,yes,0,4/10/2025
+10/5/2024,7/22/2025,2/7/1984,7/12/2025,no,4/24/2025,Darline,yes,0,yes,no,no,no,0,0,no,4/24/2025,Merisier,PAP/OMFP/ST05211,,,,4/14/2025 16:40,no,,no,0,
+11/28/2024,9/7/2025,1/5/1996,8/5/2025,yes,7/24/2025,China,yes,0,yes,yes,no,no,0,0,yes,7/24/2025,Leveille,PAP/OMFP/ST04611,,,,4/15/2025 16:14,no,,yes,839,3/24/2025
+2/24/2025,,7/23/1990,12/1/2025,no,,Nadia,no,0,no,yes,yes,yes,0,0,yes,,Pierre,PIG/CSSR/ST00324,,,,4/15/2025 19:31,no,,yes,2882,8/20/2025
+,7/24/2025,6/14/1978,7/26/2025,yes,11/8/2024,Joffre,yes,yes,yes,no,no,no,0,0,yes,7/18/2025,Loisinette,PIG/CSSR/ST00056,,,,4/15/2025 19:47,no,,no,0,8/16/2023
+1/23/2024,,1/14/1991,8/30/2025,yes,,Sophia,no,0,no,no,no,no,0,0,yes,,Jean Charles,PAP/HAHD/ST01283,,,,4/16/2025 17:51,no,,no,,
+12/15/2024,,11/22/2006,9/22/2025,yes,,Lancia,no,,no,yes,no,no,0,0,yes,,Napoleon,PAP/HAHD/ST01276,0,,,4/16/2025 17:57,no,,yes,0,10/23/2024
+1/20/2025,,9/6/2008,10/29/2025,no,,Roudjina,no,,no,no,no,no,0,0,yes,,Tranquille,PAP/SMFO/ST00922,0,,,4/16/2025 18:25,no,,no,,
+11/15/2024,,4/5/1993,8/17/2025,yes,,Beloudine,no,,no,no,no,no,0,0,yes,,Jean Pierre,PAP/SMFO/ST00925,0,,,4/16/2025 18:28,no,,no,,
+1/3/2025,,2/6/1994,10/10/2025,yes,5/20/2025,Rosmie,no,0,yes,yes,yes,yes,0,0,yes,5/20/2025,Bernard,CAP/CDSF/ST03509,,,,4/21/2025 15:47,no,,yes,838,9/24/2025
+3/5/2025,,4/6/1992,12/12/2025,no,6/18/2025,Gladys/Gladina,no,0,yes,yes,yes,yes,0,0,yes,9/17/2025,Nordeus/Saintilus,CAP/CDSF/ST01541,,,,4/21/2025 16:30,no,,yes,838,7/14/2025
+11/26/2024,8/12/2025,6/13/2000,9/2/2025,yes,,Wisline,yes,no,no,no,no,no,0,0,yes,,St Juste,PIG/CSSR/ST01008,,,,4/22/2025 13:25,no,,no,,
+2/28/2025,,1/17/1994,1/4/2026,no,6/17/2025,Rose Darline,no,,yes,yes,no,no,0,0,yes,8/20/2025,Derosier,PAP/OMFP/ST05668,0,,,4/22/2025 14:32,no,,yes,839,3/28/2025
+2/9/2025,,2/11/1996,11/16/2025,no,,Pierre,no,,no,no,no,no,0,0,yes,,Matania,PAP/GCHO/ST08947,0,,,4/23/2025 14:36,no,,no,,
+2/4/2025,,12/18/1998,11/11/2025,no,8/20/2025,Brutus,no,,yes,no,no,no,0,0,yes,9/19/2025,Nirva,PAP/GCHO/ST08302,0,,,4/23/2025 14:43,no,,yes,839,9/30/2024
+2/1/2025,,10/14/1996,11/8/2025,no,,Darius,no,,no,no,no,no,0,0,yes,,Guirlene,PAP/GCHO/ST08949,0,,,4/23/2025 14:49,no,,no,,
+10/10/2024,8/11/2025,10/10/1992,7/17/2025,yes,,Antoine,yes,0,no,yes,no,no,0,0,yes,,Jaclane,PAP/GCHO/ST06974,,,,4/23/2025 14:55,no,,yes,38,5/16/2025
+12/7/2024,,12/8/1996,9/14/2025,yes,12/11/2024,Suze,no,,yes,yes,no,no,0,0,yes,8/21/2025,Francillons,LAG/HWLG/ST01586,0,,,4/23/2025 15:00,no,,yes,839,4/1/2025
+11/23/2024,,1/16/2000,8/16/2025,yes,12/11/2024,Wiselene ,no,,yes,no,no,no,0,0,yes,8/21/2025,Belus ,LAG/HWLG/ST01563,0,,,4/23/2025 15:08,no,,no,10295,9/12/2022
+3/27/2025,,10/4/2004,1/3/2026,no,4/23/2025,Jolsaint,no,0,yes,yes,no,no,0,0,yes,4/23/2025,Mirlanda,PAP/HAHD/ST01140,,,,4/24/2025 17:45,no,,yes,0,1/27/2025
+10/1/2024,7/28/2025,4/22/2003,7/8/2025,no,,Shella,yes,no,no,no,no,no,0,0,no,,Mistique,CAP/CMSO/ST03719,,,,4/25/2025 13:37,no,,no,,
+11/10/2024,8/8/2025,2/14/1990,8/17/2025,yes,,Rose marlene,yes,no,no,no,no,no,0,0,yes,,Blaise,CAP/CMSO/ST03720,,,,4/25/2025 13:55,no,,no,,
+12/13/2024,,12/8/2007,9/20/2025,yes,,Chedelove,no,0,no,no,no,no,0,0,yes,,Pierre,CAP/CMSO/ST03734,,,,4/25/2025 14:02,no,,no,,
+10/20/2024,5/13/2025,1/12/1995,7/27/2025,yes,,Roselene,no,no,no,no,no,no,0,0,yes,,Leon,CAP/CMSO/ST03737,,,,4/25/2025 14:06,no,,no,,
+10/20/2024,7/21/2025,8/30/2006,7/27/2025,yes,,Senayica,yes,no,no,no,no,no,0,0,yes,,Mathieu,CAP/CMSO/ST03152,,,,4/25/2025 14:12,no,,no,,
+1/3/2025,,7/17/2000,10/10/2025,yes,,Jessica,no,0,no,no,no,no,1,0,yes,,ST-Fleur,CAP/CALT/ST02857,,,,4/25/2025 14:16,no,,no,,
+1/3/2025,,3/17/2006,10/10/2025,yes,6/26/2025,Robensta,no,,yes,yes,yes,yes,0,0,yes,9/25/2025,Marcela,CAP/CALT/ST02858,0,,,4/25/2025 14:20,no,,yes,0,8/11/2025
+11/28/2024,7/6/2025,2/10/1994,9/4/2025,yes,,Benitha,no,no,no,no,no,no,0,0,yes,,Pierre,SMA/CSSM/ST01273,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,4/25/2025 14:45,no,,no,,
+2/25/2025,,9/10/1983,12/21/2025,no,4/29/2025,Yliamène,no,,yes,no,no,no,0,0,yes,9/30/2025,Nicolas,SMA/CSSM/ST01274,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,4/25/2025 14:53,no,,no,,
+2/17/2025,,6/14/1996,11/24/2025,no,5/21/2025,Nancy,no,0,yes,yes,yes,yes,0,0,yes,7/16/2025,Paul,GON/CSKS/ST03129,yes,CS K-Soleil - Gonaïves,Hopital,4/25/2025 15:10,no,,yes,0,8/6/2025
+2/18/2025,,7/25/1988,11/25/2025,no,5/21/2025,Fresline,no,0,yes,yes,no,no,0,0,yes,9/17/2025,Exilhomme,GON/CSKS/ST03136,yes,CS K-Soleil - Gonaïves,Hopital,4/25/2025 15:14,no,,yes,300,7/10/2025
+12/15/2024,,2/22/2007,9/22/2025,yes,,Yfodine,no,0,no,no,no,no,0,0,yes,,François,GON/CSKS/ST03135,yes,CS K-Soleil - Gonaïves,Hopital,4/25/2025 15:18,no,,no,,
+11/21/2024,8/15/2025,12/25/1995,8/28/2025,yes,5/21/2025,Judelène,yes,no,yes,no,no,no,0,0,yes,6/18/2025,Cenord,GON/CDIR/ST02462,yes,CDI Raboteau,Hopital,4/25/2025 15:36,no,,no,,
+10/15/2024,,10/9/2004,7/22/2025,yes,,Loudsendy,no,,no,no,no,no,0,0,yes,,Charlot,GON/CDIR/ST02465,yes,CDI Raboteau,Hopital,4/25/2025 15:42,no,,no,,
+2/14/2025,,3/30/1989,11/21/2025,no,,Carline,no,0,no,no,no,no,0,0,yes,,Sagesse,GON/CDIR/ST02468,yes,CDI Raboteau,Hopital,4/25/2025 16:06,no,,no,,
+10/15/2024,6/25/2025,3/30/1989,4/25/2025,yes,5/21/2025,Guerline,no,no,yes,no,no,no,0,0,yes,5/21/2025,Saint-Louis,GON/CDIR/ST02469,yes,CDI Raboteau,Hopital,4/25/2025 16:17,no,,no,,
+12/31/2024,9/17/2025,12/31/1987,9/7/2025,yes,8/8/2025,Tana,yes,0,yes,yes,yes,yes,0,0,yes,9/12/2025,Cademus,LIM/HOSJ/ST00746,0,,Hopital,4/28/2025 2:32,no,,yes,839,7/14/2025
+10/23/2024,,8/30/1998,7/30/2025,yes,,Claire Rose,no,0,no,no,no,no,0,0,yes,,Servius,GRO/HAMG/ST03707,yes,Hôpital Alma Mater de Gros Morne,Hopital,4/28/2025 14:08,no,,no,,
+12/31/2024,9/4/2025,4/18/1985,9/7/2025,yes,,Jasmine,yes,no,no,no,no,no,0,0,yes,,Tesine,GRO/HAMG/ST02360,yes,Hôpital Alma Mater de Gros Morne,Hopital,4/28/2025 15:07,no,,no,838,8/18/2021
+2/9/2025,,12/24/1989,11/16/2025,no,2/12/2025,Woudeline,no,,yes,yes,no,no,0,0,yes,4/29/2025,Corneille,PDP/HCAH/ST00630,0,,,4/29/2025 18:44,no,,yes,0,4/24/2025
+10/11/2024,,7/18/2004,7/18/2025,yes,,Flordjina,no,0,no,no,no,no,0,0,yes,,Ferdinand,PDP/HCAH/ST01037,,,,4/29/2025 18:48,no,,no,,
+12/20/2024,,6/15/1999,9/27/2025,yes,,Lonise,no,,no,no,no,no,0,0,yes,,Fleurestil,PDP/HCAH/ST00686,0,,,4/29/2025 19:07,no,,yes,839,8/1/2024
+10/15/2024,6/15/2025,1/21/1990,7/22/2025,yes,10/22/2024,ANANIAS,no,0,yes,no,no,no,0,0,yes,6/17/2025,CHERCY,PAP/OMFP/ST05475,,,,5/8/2025 13:31,no,,no,,
+11/21/2024,,9/26/1990,8/28/2025,yes,8/20/2025,Sabrina,no,0,yes,no,no,no,0,0,yes,8/20/2025,Arismé,PAP/OMFP/ST03711,,,,5/8/2025 13:47,no,1,no,839,6/4/2024
+1/15/2025,,9/28/1988,10/22/2025,no,6/17/2025,Emmanuella,no,0,yes,no,no,no,0,0,yes,8/20/2025,Paul,PAP/OMFP/ST04635,,,,5/8/2025 13:52,no,,no,,
+2/4/2025,,1/21/1988,11/11/2025,no,5/29/2025,Eveliane,no,,yes,yes,no,no,0,0,yes,8/20/2025,Dauphin,PAP/OMFP/ST05925,0,,,5/8/2025 13:57,no,,yes,839,7/7/2025
+2/15/2025,,1/12/1993,11/22/2025,no,,Walna,no,,no,no,no,no,0,0,yes,,Petit Homme,PDP/CMEB/ST05926,0,,,5/8/2025 15:44,no,,no,,
+1/19/2025,,11/9/1994,10/26/2025,no,,Fania,no,0,no,no,no,no,0,0,yes,,Mareus,PDP/CMEB/ST05325,,,,5/8/2025 15:54,no,,no,,
+11/15/2024,,12/8/1988,8/22/2025,yes,,Rose Manette (Mata),no,,no,no,no,no,0,0,yes,,Youte,PDP/CMEB/ST05928,0,,,5/8/2025 15:57,no,,no,,
+12/7/2024,7/17/2025,9/30/1988,9/14/2025,yes,,Elcha,yes,0,no,yes,no,no,0,0,yes,,Chery,PAP/NPFS/ST04470,,,,5/9/2025 12:37,no,,yes,39,1/10/2025
+11/5/2024,8/8/2025,5/30/1987,8/12/2025,yes,,YPHENIE,yes,0,no,yes,no,no,0,0,yes,,FELIX,PAP/NPFS/ST04281,,,,5/9/2025 12:44,no,,yes,39,12/23/2024
+2/8/2025,,1/1/1992,11/15/2025,no,5/27/2025,Lourdie,no,,yes,yes,yes,yes,0,0,yes,6/27/2025,Jean,PAP/NPFS/ST04438,0,,,5/9/2025 12:48,no,,yes,39,7/22/2025
+10/26/2024,7/19/2025,6/5/2001,8/2/2025,yes,7/18/2025,Yolene,yes,yes,yes,no,no,no,0,0,yes,7/18/2025,Dorvil,PIG/CSSR/ST01013,,,,5/9/2025 13:16,no,,no,,
+11/1/2024,7/17/2025,10/31/1999,8/8/2025,yes,5/27/2025,Saika Laura,yes,0,yes,yes,no,no,0,0,yes,7/29/2025,Jeune,PAP/NPFS/ST01290,,,,5/9/2025 13:20,no,,yes,39,2/12/2025
+3/8/2025,,7/1/1985,12/15/2025,no,5/27/2025,Sabine ,no,0,yes,yes,no,no,0,0,yes,8/27/2025,Borgellas,PAP/NPFS/ST02252,,,,5/9/2025 13:22,no,,yes,993,2/11/2025
+12/30/2024,9/19/2025,1/28/1997,10/6/2025,yes,6/26/2025,Richesse,yes,no,yes,yes,yes,yes,0,0,yes,9/25/2025,Josette,CAP/CALT/ST02864,,,,5/9/2025 13:53,no,,yes,0,9/4/2025
+1/27/2025,,5/2/1985,11/2/2025,no,6/17/2025,Mie Gertrude,no,0,yes,yes,no,no,0,0,yes,7/23/2025,Prizeme,PAP/HBMP/ST05044,,,,5/9/2025 15:11,no,,yes,839,6/22/2025
+11/12/2024,6/13/2025,1/5/1996,8/19/2025,yes,7/23/2025,Julienne,no,0,yes,yes,no,no,0,0,yes,7/23/2025,St Vil,PAP/HBMP/ST05348,,,,5/9/2025 15:14,no,,yes,839,6/3/2025
+11/13/2024,,5/8/1983,8/20/2025,yes,,Mirlande,no,0,no,no,no,no,0,0,yes,,Jn thomas,PAP/HBMP/ST03073,,,,5/9/2025 15:17,no,,yes,830,9/10/2024
+11/15/2024,,11/21/2004,8/22/2025,yes,,Marlène,no,,no,no,no,no,0,0,yes,,Orisma,PAP/GCHO/ST08948,0,,,5/9/2025 15:21,no,,no,,
+11/9/2024,7/15/2025,1/15/2004,8/16/2025,yes,5/23/2025,Lucienne,yes,yes,yes,no,no,no,0,0,yes,7/18/2025,Fleuriliste,PIG/CSSR/ST00940,,,,5/9/2025 18:02,no,,no,839,3/7/2024
+3/15/2025,,8/27/2003,12/22/2025,no,8/19/2025,Marceline,no,0,yes,yes,no,no,0,0,yes,10/9/2025,Morency,CAP/CMCD/ST01495,,,,5/14/2025 12:12,no,,yes,839,7/5/2025
+12/15/2024,,3/15/1990,9/22/2025,yes,5/29/2025,Romain,no,0,yes,no,no,no,0,0,yes,5/29/2025,Chilemise,CAP/CMCD/ST01923,,,,5/14/2025 12:24,no,1,no,,
+11/15/2024,6/29/2025,7/10/1993,8/23/2025,yes,5/29/2025,Toussaint,no,yes,yes,no,no,no,0,0,yes,6/26/2025,Sylvanie,CAP/CMCD/ST01320,,,,5/14/2025 12:33,no,,no,,
+2/3/2025,,7/19/2001,11/10/2025,no,7/25/2025,Rodelyne,no,0,yes,yes,no,no,0,0,yes,8/20/2025,Jean,PAP/GCHO/ST08737,,,,5/14/2025 13:26,no,,yes,38,5/12/2025
+3/18/2025,,11/12/1995,12/25/2025,no,5/22/2025,Maculène,no,,yes,yes,no,no,0,0,yes,9/19/2025,Louissaint,PAP/GCHO/ST08865,0,,,5/14/2025 13:37,no,,yes,38,1/3/2025
+10/13/2024,,3/23/1995,7/20/2025,yes,,Gladys,no,0,no,yes,no,no,0,0,yes,,Majeus,PAP/GCHO/ST00086,,,,5/14/2025 13:44,no,1,yes,37100,12/31/2024
+10/7/2024,7/6/2025,9/18/1984,7/14/2025,yes,6/24/2025,Elise,no,no,yes,no,no,no,0,0,yes,6/24/2025,Charles,CAP/HSCM/ST02647,,,,5/14/2025 14:37,no,,no,838,6/21/2024
+,8/3/2025,11/13/2000,8/9/2025,yes,,Aliette,yes,no,no,no,no,no,0,0,yes,,Joseph,CAP/HSCM/ST04992,,,,5/14/2025 14:42,no,,no,,
+,7/9/2025,9/17/1985,7/22/2025,yes,,Vivianne ,no,yes,no,yes,no,no,0,0,yes,,Fleurant,CAP/HSCM/ST02854,,,,5/14/2025 15:08,no,,yes,838,2/17/2025
+,7/24/2025,4/24/1985,7/16/2025,yes,,Cleramise,yes,yes,no,no,no,no,0,0,yes,,Duvisien,CAP/HSCM/ST04952,,,,5/14/2025 15:16,no,,no,,
+11/12/2024,,2/25/1992,8/22/2025,yes,,Silianise,no,0,no,no,no,no,0,0,yes,,Petit-Phat,SMA/CSSM/ST01277,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,5/14/2025 18:33,no,,no,,
+11/14/2024,8/12/2025,1/8/2000,8/21/2025,yes,11/26/2024,Rolande (Ti Fifi),yes,no,yes,no,no,no,0,0,yes,7/29/2025,Roland,SMA/CSSM/ST00945,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,5/14/2025 18:45,no,,no,0,8/18/2023
+3/6/2025,,7/25/1993,12/13/2025,no,,Roseline (Viola),no,0,no,no,no,no,0,0,yes,,Brunel,GON/CDIR/ST02474,yes,CDI Raboteau,Hopital,5/14/2025 18:51,no,,no,,
+11/18/2024,8/23/2025,8/12/1983,8/25/2025,yes,11/27/2024,Denise,yes,0,yes,yes,no,no,0,0,yes,8/19/2025,Valbrun,MON/POZS/ST00832,,,,5/15/2025 13:30,no,,yes,0,11/27/2024
+2/17/2025,9/14/2025,10/12/1990,11/24/2025,no,5/22/2025,Mervil,yes,0,yes,yes,no,no,0,0,yes,9/19/2025,Kettely,MON/POZS/ST00784,,,,5/15/2025 13:31,no,,yes,0,1/8/2025
+12/14/2024,,4/6/2008,9/21/2025,yes,1/10/2025,Fabienne,no,0,yes,yes,no,no,0,0,yes,6/10/2025,Thermilus,PAP/NPFS/ST00928,,,,5/15/2025 13:46,no,1,yes,39,2/17/2025
+3/5/2025,,10/29/2006,12/12/2025,no,5/22/2025,Chedline,no,,yes,no,no,no,0,0,yes,9/19/2025,Simeon,STM/CSPP/ST01239,0,,,5/15/2025 14:00,no,,no,29557,10/24/2023
+2/16/2025,,5/20/1985,11/23/2025,no,3/13/2025,Cedonia,no,0,yes,no,no,no,0,0,yes,9/19/2025,Dieudonne,STM/CSPP/ST01954,,,,5/15/2025 14:18,no,,no,0,
+12/23/2024,,5/17/1993,9/30/2025,yes,5/22/2025,Odjeline,no,,yes,no,no,no,0,0,yes,9/19/2025,Jean Baptiste,STM/CSPP/ST01711,0,,,5/15/2025 14:21,no,,no,0,
+10/6/2024,7/20/2025,7/16/1999,7/11/2025,no,5/22/2025,Eveline,yes,0,yes,no,no,no,0,0,no,6/12/2025,PIERRE,STM/CSPP/ST02015,,,,5/15/2025 15:06,no,,no,,
+1/21/2025,,12/14/1993,10/28/2025,no,1/23/2025,Julienne,no,,yes,no,no,no,0,0,yes,9/19/2025,Joseph,STM/CSPP/ST02013,0,,,5/15/2025 15:09,no,,no,,
+3/3/2025,,1/1/2002,12/10/2025,no,5/22/2025,Gaethe,no,,yes,no,no,no,0,0,yes,9/19/2025,Altenor,STM/CSPP/ST00662,0,,,5/15/2025 15:12,no,,no,,
+1/6/2025,,2/14/1989,10/13/2025,no,,Iliomène ,no,,no,no,no,no,0,0,yes,,Rock,PDP/CMEB/ST03066,0,,,5/16/2025 15:07,no,,yes,838,10/11/2024
+12/15/2024,,8/25/1990,8/24/2025,yes,,Dieulene,no,,no,no,no,no,0,0,yes,,Daniel,PDP/HCAH/ST01040,0,,,5/16/2025 15:23,no,,no,,
+1/21/2025,,7/19/1988,10/28/2025,no,,Guerda,no,0,no,yes,no,no,0,0,yes,,Augustin,MCH/DSCA/ST00552,,,,5/16/2025 15:32,no,,yes,0,12/18/2024
+3/15/2025,,9/15/1992,12/22/2025,no,,Guerda,no,0,no,no,no,no,0,0,yes,,Zileus,MCH/DSCA/ST02287,,,,5/16/2025 15:39,no,,no,,
+3/3/2025,,4/1/1999,12/10/2025,no,5/20/2025,Francoise,no,0,yes,yes,no,no,0,0,yes,9/17/2025,Geffrard,CAP/CDSF/ST01936,,,,5/16/2025 19:20,no,,yes,838,12/24/2024
+1/5/2025,,8/30/1997,10/12/2025,yes,5/20/2025,Ginette,no,0,yes,yes,no,no,0,0,yes,6/18/2025,Eugene ,CAP/CDSF/ST03513,,,,5/16/2025 19:33,no,,yes,2753,6/27/2025
+11/20/2024,7/24/2025,1/1/1991,8/27/2025,yes,,Jenny,yes,no,no,no,no,no,0,0,yes,,Jn-Varice ,CAP/CDSF/ST01687,,,,5/20/2025 13:47,no,,no,,
+11/1/2024,,6/15/1986,8/8/2025,yes,5/20/2025,Yvrose,no,0,yes,yes,yes,yes,0,0,yes,5/20/2025,Bissiana,CAP/CDSF/ST03499,,,,5/20/2025 13:49,no,,yes,838,7/31/2025
+11/15/2024,8/2/2025,1/1/2002,8/22/2025,yes,,Michelda,yes,no,no,no,no,no,0,0,yes,,Beauvil,GRO/HAMG/ST03730,yes,Hôpital Alma Mater de Gros Morne,Hopital,5/20/2025 14:00,no,,no,,
+2/1/2025,,3/21/1997,11/8/2025,no,,Chelda,no,0,no,yes,yes,yes,0,0,yes,,Presumé,GON/CSKS/ST03139,yes,CS K-Soleil - Gonaïves,Hopital,5/20/2025 14:45,no,,yes,1119,7/31/2025
+1/15/2025,10/3/2025,10/22/1982,10/22/2025,no,5/21/2025,Nerly,yes,no,yes,yes,no,no,0,0,yes,9/17/2025,Clerveaux,GON/CSKS/ST02648,yes,CS K-Soleil - Gonaïves,Hopital,5/20/2025 15:00,no,,yes,838,12/13/2024
+1/15/2025,,12/12/1992,10/22/2025,no,3/12/2025,Wisline,no,0,yes,no,no,no,0,0,yes,3/12/2025,Joseph,CAP/CMSO/ST02371,,,,5/20/2025 15:47,no,,no,0,10/4/2023
+2/28/2025,,10/1/2004,11/7/2025,no,4/29/2025,Norcilienne,no,0,yes,yes,no,no,0,0,yes,9/19/2025,Prophete,PIL/HOEP/ST03269,,,,5/21/2025 17:26,no,,yes,839,6/26/2025
+1/4/2025,9/15/2025,4/7/2007,11/11/2025,yes,3/21/2025,.   Charlineda,yes,0,yes,yes,no,no,0,0,yes,9/19/2025,Payoute,PIL/HOEP/ST00825,,,,5/21/2025 17:32,no,,yes,839,12/11/2024
+3/15/2025,,7/1/2005,12/22/2025,no,,Calixte ,no,0,no,no,no,no,0,0,yes,,Jeandeline,LIM/HOSJ/ST03617,,,,5/22/2025 16:08,no,,no,,
+3/5/2025,,4/6/1991,12/12/2025,no,6/26/2025,Gladina,no,0,yes,yes,no,no,0,0,yes,9/26/2025,Saintilus,CAP/NEWH/ST00281,,,,5/23/2025 12:38,no,,yes,839,6/20/2025
+1/15/2025,,1/16/1991,10/22/2025,no,,Frantzine,no,0,no,yes,no,no,0,0,yes,,Jean,CAP/NEWH/ST00009,,,,5/23/2025 12:42,no,1,yes,839,6/20/2025
+12/12/2024,9/13/2025,8/15/1988,9/13/2025,yes,,Miselene,yes,0,no,yes,no,no,0,0,yes,,Gustave,CAP/CMBV/ST02879,,,,5/23/2025 12:55,no,,yes,839,11/30/2024
+11/17/2024,,1/2/1994,8/24/2025,yes,,Mirlande,no,,no,yes,yes,yes,0,0,yes,,Joseph,CAP/CMBV/ST04067,0,,,5/23/2025 13:00,no,,yes,839,7/31/2025
+1/23/2025,,1/1/1988,10/30/2025,no,,Roline,no,0,no,no,no,no,0,0,yes,,Joseph,CAP/CMSO/ST03753,,,,5/23/2025 14:22,no,,no,,
+1/1/2025,,12/2/1986,10/8/2025,yes,7/9/2025,Guerline,no,0,yes,no,no,no,0,0,yes,9/10/2025,Valmyr,CAP/CMSO/ST03756,,,,5/23/2025 14:56,no,,no,,
+2/2/2025,,8/29/1986,11/9/2025,no,,Venieze,no,0,no,no,no,no,0,0,yes,,Bel,CAP/CMSO/ST03758,,,,5/23/2025 15:22,no,,no,,
+2/19/2025,,7/21/1989,11/26/2025,no,6/11/2025,Guerdeline,no,0,yes,no,no,no,0,0,yes,9/10/2025,Louis,CAP/CMSO/ST03763,,,,5/23/2025 15:35,no,,no,,
+12/19/2024,,8/22/1991,9/26/2025,yes,,Mirlande,no,0,no,no,no,no,1,0,yes,,Augustin,CAP/CMSO/ST03740,,,,5/23/2025 15:38,no,,no,,
+10/26/2024,9/2/2025,1/29/1990,8/1/2025,yes,,Rosemene,yes,no,no,no,no,no,0,0,yes,,Ciceron,CAP/CMSO/ST03741,,,,5/23/2025 15:56,no,,no,,
+1/15/2025,8/12/2025,8/9/1994,10/22/2025,no,1/15/2025,Rodelande,yes,no,yes,yes,no,no,0,0,yes,10/9/2025,Alteus,CAP/CMSO/ST03290,,,,5/23/2025 17:55,no,,yes,838,12/10/2024
+11/26/2024,8/21/2025,7/8/1995,9/2/2025,yes,,Darline,yes,yes,no,no,no,no,0,0,yes,,Michel,CAP/CALT/ST02873,,,,5/23/2025 18:01,no,,no,,
+12/15/2024,9/3/2025,2/8/2007,9/22/2025,yes,,Daveline,yes,no,no,no,no,no,0,0,yes,,Dérismat,SMA/CSSM/ST01283,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,5/26/2025 13:59,no,,no,,
+11/22/2024,8/1/2025,1/1/1992,8/22/2025,yes,11/26/2024,Solita,yes,no,yes,no,no,no,0,0,yes,8/26/2025,Pierre / Oreste,SMA/CSSM/ST00427,yes,Centre Santé de Saint Michel de l’Attalaye,Hopital,5/26/2025 14:05,no,,no,,
+10/13/2024,7/19/2025,6/25/2007,7/20/2025,yes,,Chinaidine,yes,0,no,yes,no,no,0,0,yes,,Louis,CAP/NEWH/ST00563,,,,5/26/2025 15:04,no,,yes,839,12/24/2024
+11/15/2024,8/28/2025,11/10/2009,8/22/2025,yes,7/24/2025,Samuolla,yes,yes,yes,no,no,no,0,0,yes,7/24/2025,Gerard,CAP/CMBV/ST03973,,,,5/26/2025 15:16,no,,no,31,
+1/15/2025,7/19/2025,12/18/1992,10/22/2025,no,,Alourdes,yes,yes,no,yes,yes,yes,0,0,yes,,Jean,PIL/HOEP/ST02588,,,,5/26/2025 16:22,no,,yes,839,7/25/2025
+10/15/2024,7/27/2025,9/7/1984,7/22/2025,yes,5/30/2025,Carole,yes,0,yes,yes,no,no,0,0,yes,6/26/2025,Charles,PAP/HSFS/ST01028,,,,5/26/2025 23:39,no,,yes,839,6/28/2025
+10/15/2024,8/29/2025,1/1/2002,7/22/2025,yes,5/22/2025,Roselene,yes,0,yes,no,no,no,0,0,yes,7/22/2025,Cenat,PAP/HFSC/ST04820,,,,5/27/2025 12:39,no,,no,,
+12/15/2024,9/20/2025,4/6/1993,9/22/2025,yes,,Gislhaine,yes,0,no,yes,yes,yes,0,0,yes,,Charles,PAP/HFSC/ST04872,,,,5/27/2025 12:47,no,,yes,39,8/29/2025
+2/20/2025,,5/30/1998,11/27/2025,no,,Erilia,no,0,no,yes,yes,yes,0,0,yes,,Zephyrin,PAP/HFSC/ST04859,,,,5/27/2025 12:49,no,,yes,39,7/25/2025
+2/2/2025,,2/7/1991,11/9/2025,no,3/12/2025,Guirlene,no,,yes,no,no,no,0,0,yes,9/19/2025,Jules,MON/POZS/ST00499,0,,,5/27/2025 13:17,no,,no,839,6/1/2023
+1/22/2025,,8/11/1998,10/29/2025,no,3/12/2025,Ymétaise,no,,yes,no,no,no,0,0,yes,9/19/2025,Charles,MON/POZS/ST00477,0,,,5/27/2025 13:18,no,,no,0,
+4/15/2025,,7/18/1995,1/22/2026,no,,Florestal,no,0,no,yes,no,no,0,0,yes,,Erlande,PIL/HOEP/ST03007,,,,5/27/2025 18:57,no,,yes,839,1/22/2025
+12/5/2024,,5/5/1983,9/12/2025,yes,7/11/2025,silien,no,,yes,no,no,no,0,0,yes,9/12/2025,Rosenie,LIM/HOSJ/ST03642,0,,,5/28/2025 14:13,no,,no,,
+3/7/2025,,7/7/1984,12/14/2025,no,5/28/2025, Claudia,no,0,yes,yes,yes,yes,0,0,yes,9/25/2025,"	Julmiste",CAP/CALT/ST00637,,,,5/29/2025 18:27,no,,yes,838,9/25/2025
+3/10/2025,,7/1/1988,12/17/2025,no,9/11/2025,Jenny(Anna-Rose),no,0,yes,no,no,no,0,0,yes,10/9/2025,Dorvil,CAP/CMCD/ST00258,,,,5/30/2025 13:50,no,,no,,
+12/15/2024,,5/4/1991,9/22/2025,yes,,Michelene,no,0,no,no,no,no,0,0,yes,,Pierre,CAP/CMCD/ST01193,,,,5/30/2025 14:21,no,,no,0,10/14/2021
+10/1/2024,7/18/2025,6/15/1995,7/8/2025,no,,Lovena ,yes,0,no,yes,no,no,0,0,no,,Casseus,FOS/CLPV/ST01092,,,,5/30/2025 18:18,no,,yes,2853,6/23/2025
+11/23/2024,8/15/2025,12/8/1991,8/30/2025,yes,,Dorca Marie-Noel,yes,0,no,yes,no,no,0,0,yes,,Lamothe,FOS/CLPV/ST01096,,,,5/30/2025 18:21,no,,yes,839,7/1/2025
+10/6/2024,7/22/2025,9/7/1984,7/13/2025,no,,Rosita,yes,0,no,no,no,no,0,0,no,,Merisier,FOS/CLPV/ST00777,,,,5/30/2025 18:26,no,,no,39,6/21/2024
+12/21/2024,,3/3/2001,9/28/2025,yes,7/22/2025,Francesca,no,,yes,yes,no,no,0,0,yes,8/19/2025,Henry,FOS/CLPV/ST01077,0,,,5/30/2025 18:32,no,,yes,39,10/23/2024
+1/15/2025,,3/15/1993,10/22/2025,no,,Magalie,no,,no,yes,no,no,0,0,yes,,Chérie,PAP/HFSC/ST04849,0,,,5/30/2025 18:50,no,,yes,160000,5/4/2025
+12/5/2024,9/9/2025,10/22/2006,9/12/2025,yes,,Gaina,yes,0,no,yes,yes,yes,0,0,yes,,Petit-frère,PAP/HFSC/ST04830,,,,5/30/2025 19:00,no,,yes,40,8/27/2025
+1/15/2025,,9/3/1988,10/22/2025,no,,Irania,no,,no,no,no,no,0,0,yes,,Derolus,PAP/HFSC/ST04898,0,,,5/30/2025 19:07,no,,no,0,
+10/15/2024,6/1/2025,11/17/1987,7/22/2025,yes,,Margaret,no,0,no,no,no,no,0,0,yes,,Renel,PAP/HFSC/ST04821,,,,6/1/2025 2:29,no,,no,0,
+12/17/2024,8/7/2025,8/4/1997,9/24/2025,yes,,Maudeline,yes,0,no,yes,yes,yes,0,0,yes,,Clermont,FOS/CLPV/ST01108,,,,6/1/2025 2:33,no,,yes,839,8/28/2025
+2/8/2025,,9/8/2000,11/15/2025,no,,Rose Merlande,no,0,no,no,no,no,0,0,yes,,Desrosiers,PAP/FONP/ST02487,,,,6/1/2025 2:36,no,,no,0,
+2/12/2025,,2/12/2005,11/19/2025,no,6/24/2025,Woosderline,no,0,yes,no,no,no,0,0,yes,8/21/2025,Mars,PAP/FONP/ST02485,,,,6/1/2025 2:37,no,,no,0,
+11/15/2024,,7/16/1983,8/22/2025,yes,,Celimene,no,0,no,no,no,no,0,0,yes,,Noel,PAP/CMSP/ST00602,,,,6/1/2025 2:45,no,,no,838,5/6/2024
+12/28/2024,8/8/2025,3/14/1998,10/4/2025,yes,6/25/2025,Michellange,yes,0,yes,yes,no,no,0,0,yes,8/26/2025,St Cyr,PAP/CMSP/ST02018,,,,6/1/2025 2:52,no,,yes,12445,6/9/2025
+1/23/2025,,1/1/1998,10/30/2025,no,7/18/2025,Dickencia,no,0,yes,yes,no,no,0,0,yes,9/19/2025,Normil,MON/POZS/ST00950,,,,6/1/2025 3:10,no,,yes,839,5/22/2025
+2/9/2025,,9/28/1989,12/16/2025,no,7/18/2025,Nadine,no,0,yes,no,no,no,0,0,yes,9/19/2025,Delly,MON/POZS/ST00812,,,,6/1/2025 3:12,no,,yes,839,9/17/2024
+10/15/2024,8/5/2025,2/15/1984,7/22/2025,yes,,Ludia,yes,yes,no,no,no,no,0,0,yes,,Norvelus,CAP/SECH/ST00856,,,,6/2/2025 15:30,no,,no,,
+12/12/2024,,2/15/1984,9/19/2025,yes,,Jocelyne,no,0,no,no,no,no,0,0,yes,,Compere,CAP/SECH/ST00857,,,,6/2/2025 15:35,no,,no,,
+3/1/2025,,9/10/1992,12/8/2025,no,,Clara,no,,no,yes,no,no,0,0,yes,,Jeanite,GON/HCRE/ST00346,yes,Hôpital Communautaire de Reference de l'Estere,Hopital,6/2/2025 17:34,no,,yes,0,7/11/2025
+2/18/2025,,7/13/1993,11/25/2025,no,,Lindia,no,,no,no,no,no,0,0,yes,,Louis,GON/HCRE/ST00590,yes,Hôpital Communautaire de Reference de l'Estere,Hopital,6/2/2025 17:42,no,,no,,
+12/4/2024,8/31/2025,8/2/1991,9/11/2025,yes,6/18/2025,Carmène,yes,no,yes,no,no,no,0,0,yes,8/20/2025,Charléus,GON/CDIR/ST02472,,,,6/3/2025 13:18,no,,no,,
+1/5/2025,9/27/2025,1/1/2001,10/11/2025,yes,7/24/2025,Manoutchie,yes,0,yes,yes,no,no,0,0,yes,8/28/2025,Farelus,CAP/NEWH/ST00566,,,,6/4/2025 13:08,no,,yes,15027,6/25/2025
+2/13/2025,,6/15/1989,11/20/2025,no,9/26/2025,Felisnor,no,0,yes,no,no,no,0,0,yes,9/26/2025,Adeline,CAP/NEWH/ST00569,,,,6/4/2025 13:15,no,,no,,
+2/6/2025,,9/29/2006,11/13/2025,no,4/29/2025,Benjamin,no,0,yes,yes,yes,yes,0,0,yes,8/26/2025,Catherine,CAP/HSCM/ST02041,,,,6/4/2025 13:32,no,,yes,0,7/25/2025
+12/20/2024,8/23/2025,6/1/1990,9/27/2025,yes,8/21/2025,Roseline,yes,0,yes,no,no,no,0,0,yes,8/21/2025,Seide,PAP/FONP/ST01064,,,,6/4/2025 14:38,no,,no,999,5/28/2024
+10/8/2024,7/22/2025,,7/15/2025,yes,5/28/2025,Darline,yes,0,yes,no,no,no,0,0,yes,6/24/2025,Joseph,PAP/FONP/ST01814,,,,6/4/2025 15:29,no,,no,,
+11/9/2024,8/8/2025,,8/16/2025,yes,,Marienouche Kerline,yes,0,no,no,no,no,0,0,yes,,Joseph,PAP/FONP/ST02473,,,,6/4/2025 15:32,no,,no,,
+2/11/2025,,7/17/1989,11/18/2025,no,6/24/2025,Nadege ,no,,yes,no,no,no,0,0,yes,8/21/2025,Marceus,PAP/FONP/ST02037,0,,,6/4/2025 15:34,no,,no,39,6/15/2024
+12/15/2024,,,9/22/2025,yes,6/24/2025,Sylvie,no,,yes,no,no,no,0,0,yes,8/21/2025,Herode,PAP/FONP/ST02478,0,,,6/4/2025 15:35,no,,no,,
+4/20/2025,,,1/27/2026,no,6/24/2025,Nerlande ,no,,yes,no,no,no,0,0,yes,8/21/2025,Paul,PAP/FONP/ST02482,0,,,6/4/2025 15:37,no,,no,,
+11/20/2024,8/23/2025,9/29/1999,8/27/2025,yes,6/24/2025,Nathalie,yes,0,yes,no,no,no,0,0,yes,8/21/2025,Rejouis,PAP/FONP/ST02477,,,,6/4/2025 15:38,no,,no,,
+11/1/2024,8/24/2025,5/18/1995,8/8/2025,yes,6/26/2025,Prince,yes,0,yes,no,no,no,0,0,yes,7/24/2025,Elevire Lovelie,CAP/CMBV/ST04051,,,,6/4/2025 18:46,no,,no,,
+3/5/2025,,7/4/1988,12/12/2025,no,8/20/2025,Roseline,no,0,yes,no,no,no,0,0,yes,8/20/2025,Fontis,CAP/CDSF/ST03515,,,,6/5/2025 13:13,no,,no,,
+11/2/2024,8/27/2025,9/20/2001,8/9/2025,yes,,Fiseline,yes,no,no,no,no,no,0,0,yes,,Joseph,CAP/CDSF/ST03518,,,,6/5/2025 13:54,no,,no,,
+12/16/2024,9/16/2025,7/9/2005,9/23/2025,yes,,Loudjina,yes,no,no,no,no,no,0,0,yes,,Preval,PIG/CSSR/ST01016,,,,6/5/2025 14:14,no,,no,,
+10/15/2024,6/22/2025,2/14/1985,7/21/2025,yes,,Nadine,no,0,no,no,no,no,0,0,yes,,Saintil,CAP/CMBV/ST01349,,,,6/9/2025 17:21,no,,no,,
+12/28/2024,10/2/2025,5/15/1992,10/5/2025,yes,8/20/2025,Merline,yes,no,yes,yes,yes,yes,0,0,yes,9/17/2025,Louis,GON/CSKS/ST02947,yes,CS K-Soleil - Gonaïves,Hopital,6/10/2025 16:44,no,,yes,0,9/5/2025
+11/25/2024,8/31/2025,11/22/2002,9/2/2025,yes,6/18/2025,Marie-Joe,yes,no,yes,no,no,no,0,0,yes,7/16/2025,Mitial,GON/CSKS/ST01342,yes,CS K-Soleil - Gonaïves,Hopital,6/10/2025 16:58,no,,no,,
+1/9/2025,,2/14/1995,10/16/2025,no,6/18/2025,Nesia,no,,yes,yes,yes,yes,0,0,yes,7/16/2025,Cervé,GON/CSKS/ST03143,yes,CS K-Soleil - Gonaïves,Hopital,6/10/2025 17:03,no,,yes,0,8/15/2025
+1/15/2025,,10/15/2004,10/22/2025,no,8/20/2025,Marceline,no,0,yes,yes,yes,yes,0,0,yes,8/20/2025,Dervil,GON/CSKS/ST03148,yes,CS K-Soleil - Gonaïves,Hopital,6/10/2025 17:18,no,,yes,0,9/5/2025
+11/17/2024,6/24/2025,2/13/2003,8/24/2025,yes,,Marianne,no,no,no,no,no,no,0,0,yes,,Louima,GON/CSKS/ST03153,yes,CS K-Soleil - Gonaïves,Hopital,6/10/2025 17:21,no,,no,,
+10/17/2024,8/3/2025,2/17/2012,7/24/2025,yes,,Dacheka,yes,no,no,no,no,no,0,0,yes,,Samuel,GON/CSKS/ST03149,yes,CS K-Soleil - Gonaïves,Hopital,6/10/2025 17:26,no,,no,,
+1/25/2025,,8/17/1999,10/31/2025,no,,Elianise,no,,no,no,no,no,0,0,yes,,Pierre,PIL/HOEP/ST03561,0,,,6/11/2025 14:58,no,,no,,
+1/15/2025,,2/1/1997,10/22/2025,no,7/9/2025,Marie-Rose,no,,yes,no,no,no,0,0,yes,10/9/2025,Delice,CAP/CMSO/ST03768,0,,,6/12/2025 15:38,no,,no,,
+3/15/2025,,6/8/1991,12/22/2025,no,,Natacha,no,0,no,no,no,no,0,0,yes,,Merilien,CAP/CMSO/ST03777,,,,6/12/2025 15:43,no,,no,,
+12/15/2024,,11/25/2003,9/22/2025,yes,,Ediane,no,0,no,no,no,no,0,0,yes,,Joseph,CAP/CMSO/ST03770,,,,6/12/2025 15:53,no,,no,,
+1/3/2025,,6/19/1993,10/10/2025,yes,,Anette,no,,no,yes,yes,yes,0,0,yes,,Valcourt,CAP/SECH/ST00859,0,,,6/13/2025 13:39,no,,yes,839,7/28/2025
+11/15/2024,,5/9/1989,8/22/2025,yes,,Wilène,no,,no,no,no,no,0,0,yes,,Toussaint,PAP/HSFS/ST01941,0,,,6/16/2025 13:25,no,,no,0,
+12/1/2024,,2/19/1991,9/9/2025,yes,,Bergeline,no,,no,yes,no,no,0,0,yes,,Paul,PAP/HSFS/ST01416,0,,,6/16/2025 13:30,no,,yes,839,12/5/2024
+11/15/2024,,12/24/1992,8/22/2025,yes,11/28/2024,Nadine,no,,yes,yes,yes,yes,0,0,yes,1/14/2025,Merisier,PAP/HSFS/ST01224,0,,,6/16/2025 13:32,no,,yes,1849,8/6/2025
+3/15/2025,,9/5/2003,12/22/2025,no,,Francis,no,,no,no,no,no,0,0,yes,,Joseph,PAP/HSFS/ST01952,0,,,6/16/2025 13:38,no,,no,0,
+4/8/2025,,3/20/1997,1/15/2026,no,,Modeline,no,,no,no,no,no,0,0,yes,,Cedelien,PIL/HOEP/ST03563,0,,,6/16/2025 17:20,no,,no,,
+2/12/2025,,8/28/1993,11/19/2025,no,6/26/2025,Angeline,no,0,yes,yes,yes,yes,0,0,yes,9/25/2025,Pierre,CAP/CALT/ST02883,,,,6/16/2025 19:33,no,,yes,11332,7/29/2025
+2/2/2025,,6/9/1996,11/9/2025,no,,Medjina,no,0,no,yes,yes,yes,0,0,yes,,Pierre,CAP/CALT/ST01598,,,,6/16/2025 19:42,no,,yes,22429,7/29/2025
+1/8/2025,9/13/2025,10/15/1992,10/15/2025,no,,Berline,yes,0,no,yes,yes,yes,0,0,yes,,Morency,PAP/NPFS/ST04547,,,,6/18/2025 14:20,no,,yes,39,7/14/2025
+1/15/2025,,6/16/2001,10/22/2025,no,1/16/2025,Lucknise,no,0,yes,yes,yes,yes,0,0,yes,9/25/2025,Ambroise,CAP/CALT/ST01044,,,,6/20/2025 15:00,no,,yes,0,8/7/2025
+4/28/2025,,3/10/1992,2/4/2026,no,,Anouse,no,0,no,no,no,no,0,0,yes,,Jean,CAP/CALT/ST02886,,,,6/20/2025 18:37,no,,no,,
+11/15/2024,9/9/2025,9/20/1984,8/22/2025,yes,6/26/2025,Jocelene,yes,no,yes,yes,yes,yes,0,0,yes,7/24/2025,Louis,CAP/CALT/ST02888,,,,6/20/2025 18:41,no,,yes,0,7/29/2025
+3/22/2025,,10/31/1993,12/29/2025,no,,Roselaure,no,0,no,yes,yes,yes,0,0,yes,,Brutus,CAP/CALT/ST02470,,,,6/20/2025 18:53,no,,yes,839,7/25/2025
+4/3/2025,,9/4/1998,1/10/2026,no,,Wilda,no,0,no,yes,no,no,0,0,yes,,Desca,PAP/HFSC/ST04876,,,,6/23/2025 12:55,no,1,yes,142,5/14/2025
+2/22/2025,,11/8/2003,11/29/2025,no,8/27/2025,Maglavinia,no,0,yes,yes,yes,yes,0,0,yes,8/27/2025,Estime,PAP/NPFS/ST00223,,,,6/23/2025 14:48,no,,yes,39,9/15/2025
+11/14/2024,8/12/2025,4/1/1987,8/21/2025,yes,11/26/2024,Michelène ,yes,no,yes,no,no,no,0,0,yes,7/29/2025,Pierre,SMA/CSSM/ST00630,,,,6/23/2025 21:18,no,,no,0,9/25/2023
+1/4/2025,,1/16/1992,11/11/2025,yes,7/18/2025,Linda,no,,yes,yes,yes,yes,0,0,yes,9/19/2025,Vilbert,PIL/HOEP/ST02556,0,,,6/24/2025 12:48,no,,yes,13306,7/25/2025
+1/28/2025,,11/25/2002,11/5/2025,no,,Jordanise,no,0,no,no,no,no,0,0,yes,,Louis,CAP/CMCD/ST01793,,,,6/24/2025 12:55,no,,no,,
+2/28/2025,,5/8/2005,12/5/2025,no,,Miderline,no,0,no,no,no,no,0,0,yes,,Floreal,CAP/CMCD/ST01924,,,,6/24/2025 13:01,no,,no,,
+12/20/2024,,3/27/1989,9/29/2025,yes,,Ivranie,no,0,no,yes,yes,yes,0,0,yes,,Cherizard,CAP/CMCD/ST01443,,,,6/24/2025 13:06,no,,yes,838,8/31/2025
+2/15/2025,,1/9/1999,11/22/2025,no,,Roudeline,no,,no,no,no,no,0,0,yes,,Inelus,CAP/CMCD/ST01925,0,,,6/24/2025 13:10,no,,no,,
+4/28/2025,,2/10/1987,2/4/2026,no,6/10/2025,Judith,no,0,yes,no,no,no,0,0,yes,10/9/2025,Elvoit,CAP/CMCD/ST00091,,,,6/24/2025 13:17,no,,no,,
+12/16/2024,9/14/2025,1/2/1989,9/23/2025,yes,6/24/2025,Benita,yes,no,yes,yes,yes,yes,0,0,yes,9/23/2025,Dibreus,CAP/HSCM/ST04867,,,,6/25/2025 13:53,no,,yes,0,7/27/2025
+2/9/2025,,4/14/1996,11/16/2025,no,9/26/2025,Roselore,no,0,yes,yes,yes,yes,0,0,yes,9/26/2025,Hypolite,CAP/NEWH/ST00571,,,,6/25/2025 15:08,no,,yes,7440,9/18/2025
+1/15/2025,,9/6/1995,10/22/2025,no,6/26/2025,Myliane,no,,yes,no,no,no,0,0,yes,7/24/2025,Baptiste,CAP/CALT/ST02884,0,,,6/27/2025 12:59,no,,no,,
+11/4/2024,8/17/2025,12/24/2001,8/11/2025,yes,,Guerlande,yes,no,no,no,no,no,0,0,yes,,Aristil,FOP/HCPT/ST01363,,,,6/30/2025 13:32,no,,no,,
+12/28/2024,9/17/2025,7/22/1991,10/5/2025,yes,,Roseleine ,yes,0,no,no,no,no,0,0,yes,,Sainma,FOP/HCPT/ST01209,,,,6/30/2025 13:41,no,,no,,
+12/12/2024,8/19/2025,7/15/1984,9/19/2025,yes,,Nadège,yes,0,no,no,no,no,0,0,yes,,Joseph,PAP/GCHO/ST08955,,,,6/30/2025 14:05,no,,no,,
+12/15/2024,9/18/2025,1/10/1990,9/22/2025,yes,,Yvelande,yes,0,no,yes,yes,yes,0,0,yes,,Alcenat,PAP/HSFS/ST01665,,,,6/30/2025 14:29,no,,yes,0,7/15/2025
+2/14/2025,,5/15/1983,11/21/2025,no,7/23/2025,Franceska,no,,yes,yes,no,no,0,0,yes,7/23/2025,Faustin,PAP/HBMP/ST05323,0,,,6/30/2025 15:59,no,,yes,2041,6/15/2025
+3/5/2025,,7/24/1993,12/12/2025,no,,Guilouse,no,,no,yes,no,no,0,0,yes,,ST -Juste,CAP/CMBV/ST03721,0,,,6/30/2025 17:53,no,,yes,839,7/13/2025
+2/23/2025,,11/7/2007,11/30/2025,no,3/13/2025,Amanda,no,,yes,no,no,no,0,0,yes,9/19/2025,Denis,STM/CSPP/ST02197,0,,,7/3/2025 13:48,no,,no,26558,9/26/2023
+5/15/2025,,12/12/1987,2/22/2026,no,7/18/2025,Genise,no,,yes,no,no,no,0,0,yes,9/19/2025,Francois,STM/CSPP/ST01884,0,,,7/3/2025 13:51,no,,no,0,
+1/15/2025,,7/23/2000,10/22/2025,no,,Wilnise,no,0,no,no,no,no,0,0,yes,,Vertilus,CAP/CDSF/ST03040,,,,7/3/2025 19:38,no,,no,,
+3/15/2025,,12/15/1995,12/22/2025,no,,Djennie,no,0,no,no,no,no,0,0,yes,,Bellavoix,CAP/CDSF/ST03528,,,,7/3/2025 19:44,no,,no,,
+10/23/2024,,8/11/1986,7/31/2025,yes,,Islande,no,0,no,no,no,no,0,0,yes,,Jean,CAP/CDSF/ST01130,,,,7/3/2025 19:47,no,,no,,
+2/19/2025,,5/22/2000,11/26/2025,no,,Wislande,no,0,no,no,no,no,0,0,yes,,Barthelemy,MCH/DSCA/ST02161,,,,7/7/2025 14:10,no,,no,0,
+4/15/2025,,10/8/1990,1/22/2026,no,,Roseline,no,0,no,yes,no,no,0,0,yes,,Fucien,CAP/CALT/ST00494,,,,7/8/2025 18:59,no,,yes,5314,12/30/2025
+10/29/2024,8/7/2025,5/20/1993,8/5/2025,yes,7/24/2025,Darlie,yes,yes,yes,yes,yes,yes,0,0,yes,7/24/2025,Saint Fleur,CAP/CALT/ST02901,,,,7/8/2025 19:13,no,,yes,838,8/6/2025
+4/17/2025,,4/21/1998,1/24/2026,no,,Loinise,no,0,no,no,no,no,0,0,yes,,Lamour,CAP/CALT/ST02902,,,,7/8/2025 19:20,no,,no,,
+3/20/2025,,12/10/2001,12/27/2025,no,,Fritzline,no,0,no,no,no,no,0,0,yes,,Jaques,CAP/CALT/ST02903,,,,7/8/2025 19:27,no,,no,,
+11/14/2024,,9/6/1995,8/21/2025,yes,,Mylianne,no,0,no,no,no,no,0,0,yes,,Baptiste,CAP/CALT/ST02882,,,,7/8/2025 19:31,no,1,no,,
+2/24/2025,,7/7/1991,12/4/2025,no,6/26/2025,angeline,no,,yes,yes,yes,yes,0,0,yes,9/25/2025,alize,CAP/CALT/ST02890,0,,,7/8/2025 19:55,no,,yes,838,9/25/2025
+5/15/2024,8/18/2025,1/1/1998,8/22/2025,yes,7/24/2025,Daniella,yes,yes,yes,yes,yes,yes,0,0,yes,7/24/2025,Celexant,CAP/CALT/ST02893,,,,7/8/2025 19:57,no,,yes,5314,8/6/2025
+12/30/2024,9/1/2025,8/24/1994,10/7/2025,yes,7/9/2025,Nehemie,yes,no,yes,no,no,no,0,0,yes,8/13/2025,Philidor,CAP/CMSO/ST01149,,,,7/10/2025 14:40,no,,no,,
+2/9/2025,,4/5/1999,11/16/2025,no,,kettie,no,0,no,yes,yes,yes,0,0,yes,,Israel,CAP/CALT/ST02706,,,,7/10/2025 15:35,no,,yes,14364,7/30/2025
+2/15/2025,,5/4/1999,11/22/2025,no,9/25/2025,Magdaline,no,0,yes,yes,yes,yes,0,0,yes,9/25/2025,Philemond,CAP/CALT/ST02897,,,,7/10/2025 17:48,no,,yes,7497,8/6/2025
+3/11/2025,,3/3/1992,12/18/2025,no,,Marianne,no,0,no,yes,yes,yes,0,0,yes,,Petideau,CAP/CALT/ST02896,,,,7/10/2025 17:55,no,,yes,10659,8/6/2025
+12/23/2024,,9/27/1996,9/30/2025,yes,,Dacheca,no,,no,no,no,no,0,0,yes,,Pierre,CAP/CMSO/ST03781,0,,,7/10/2025 18:55,no,,no,,
+11/5/2024,8/1/2025,7/13/1999,8/12/2025,yes,,Rose-Sandie,yes,no,no,no,no,no,0,0,yes,,Delima,CAP/CMSO/ST03782,,,,7/10/2025 19:04,no,,no,,
+3/15/2025,,2/6/1991,12/22/2025,no,,Rose-Nerlande(Dadou),no,0,no,no,no,no,0,0,yes,,Desravinnes,CAP/CMSO/ST03793,,,,7/10/2025 19:10,no,,no,,
+12/28/2024,,5/14/2008,10/8/2025,yes,,Sara,no,,no,no,no,no,0,0,yes,,Devalus,CAP/CMSO/ST03800,0,,,7/10/2025 19:15,no,,no,,
+12/7/2024,,12/1/1994,9/14/2025,yes,,Caroline,no,,no,no,no,no,0,0,yes,,Petit,CAP/CMSO/ST03806,0,,,7/10/2025 19:29,no,,no,,
+5/5/2025,,1/20/2003,2/12/2026,no,,Anne Marie,no,0,no,no,no,no,0,0,yes,,Louis,CAP/CALT/ST02894,,,,7/10/2025 19:54,no,,no,,
+2/6/2025,,7/15/1997,11/13/2025,no,,Chantale,no,0,no,no,no,no,0,0,yes,,Casseus,CAP/CMCD/ST91933,,,,7/11/2025 12:40,no,,no,,
+9/15/2024,,2/1/1993,1/22/2026,no,10/9/2025,Shedeline,no,,yes,no,no,no,0,0,yes,10/9/2025,Joseph,CAP/CMCD/ST00350,0,,,7/11/2025 12:44,no,,no,0,2/2/2022
+2/20/2025,,7/1/1989,11/27/2025,no,7/18/2025,Dieulene,no,0,yes,no,no,no,0,0,yes,9/12/2025,Osias,PIG/CSSR/ST01022,,,,7/11/2025 12:54,no,,no,,
+5/15/2025,,5/11/1986,2/22/2026,no,,Mirlene,no,0,no,no,no,no,0,0,yes,,Noel,CAP/CDSF/ST03533,,,,7/11/2025 13:31,no,1,no,,
+6/6/2025,,2/17/1992,3/13/2026,no,,Rose Darline,no,0,no,no,no,no,0,0,yes,,Exume,CAP/CDSF/ST02069,,,,7/11/2025 13:39,no,,no,,
+9/18/2024,6/5/2025,5/11/2005,6/25/2025,no,,Marlande,no,no,no,no,no,no,0,0,no,,Romain,CAP/CMSO/ST03696,,,,7/14/2025 13:39,yes,,no,,
+12/17/2024,,6/7/2001,9/24/2025,yes,1/21/2025,WATNISE,no,,yes,yes,no,no,0,0,yes,9/12/2025,PLAISIR,LIM/HOSJ/ST00525,0,,,7/14/2025 14:39,yes,,yes,839,12/3/2024
+12/26/2024,9/9/2025,12/7/1998,9/2/2025,yes,7/11/2025,GUERDA,yes,0,yes,yes,yes,yes,0,0,yes,9/12/2025,DASSEUS,LIM/HOSJ/ST03240,,,,7/14/2025 14:44,yes,,yes,839,7/28/2025
+12/14/2024,,2/12/1992,9/21/2025,yes,,Roselene,no,,no,no,no,no,0,0,yes,,St-Julien,LIM/HOSJ/ST06112,0,,,7/14/2025 14:57,yes,,no,,
+11/23/2024,,6/8/1987,10/30/2025,yes,,Lucianie,no,,no,yes,no,no,0,0,yes,,Saincurin,LIM/HOSJ/ST01150,0,,,7/14/2025 15:19,yes,,yes,839,2/16/2025
+6/29/2025,9/7/2025,12/22/2003,4/5/2026,no,7/22/2025,Kerlande,yes,no,yes,no,no,no,0,0,yes,7/22/2025,Pierre,CAP/HSCM/ST05020,,,,7/14/2025 19:34,yes,,no,,
+11/6/2024,,1/10/2004,8/18/2025,yes,7/16/2025,Jessica,no,,yes,no,no,no,0,0,yes,7/16/2025,Derilus,GON/CSKS/ST03154,0,,,7/15/2025 11:04,yes,,no,,
+3/15/2025,,5/29/1990,12/22/2025,no,,Yvena,no,0,no,no,no,no,0,0,yes,,Dominique,GON/CDIR/ST02106,,,,7/15/2025 13:44,yes,,no,,
+4/15/2025,,4/15/1996,1/21/2026,no,,Shella,no,0,no,no,no,no,0,0,yes,,Victor,GON/CSKS/ST03155,,,,7/15/2025 13:50,yes,,no,,
+11/26/2024,8/4/2025,11/14/1996,8/1/2025,yes,,Catiana,yes,no,no,no,no,no,0,0,yes,,Vilma,GON/CSKS/ST03157,,,,7/15/2025 13:56,yes,,no,,
+12/24/2024,,6/22/2007,10/1/2025,yes,,Lanise,no,0,no,no,no,no,0,0,yes,,Dorvil,GON/CSKS/ST03160,,,,7/16/2025 13:50,yes,,no,,
+11/10/2024,8/18/2025,2/14/2000,8/17/2025,yes,,Mariette,yes,no,no,no,no,no,0,0,yes,,Pierre Charles,GON/CSKS/ST03167,,,,7/16/2025 13:54,yes,,no,,
+,10/8/2024,7/16/2002,,no,,Adeline,no,yes,no,no,no,no,0,0,no,,Fenelus,CAP/CSLT/ST01227,,,,7/16/2025 14:04,yes,,no,,
+12/6/2024,,4/11/1992,4/3/2026,yes,,Gideline,no,0,no,no,no,no,0,0,yes,,Jean,CAP/CSLT/ST01234,,,,7/16/2025 14:37,yes,,no,,
+12/1/2024,9/26/2025,6/17/1987,9/19/2025,yes,,Madianie,yes,no,no,no,no,no,0,0,yes,,Pierrelus,SMA/CSSM/ST00795,,,,7/17/2025 18:58,yes,,no,,
+,6/3/2025,6/15/1991,,no,,Dieula,no,yes,no,no,no,no,0,0,no,,Fleurimo,CAP/HSCM/ST05010,,,,7/18/2025 12:57,yes,,no,,
+5/20/2025,,4/20/1990,2/27/2026,no,7/17/2025,Edeline,no,0,yes,yes,no,no,0,0,yes,9/17/2025,Janvier,CAP/CDSF/ST03220,yes,Hôpital Universitaire Justinien,Hopital,7/18/2025 13:10,yes,,yes,838,4/24/2025
+11/25/2024,,2/15/1991,9/12/2025,yes,,Doudeline,no,0,no,no,no,no,0,0,yes,,Prioly,CAP/SECH/ST00860,,,,7/18/2025 13:42,yes,,no,,
+4/30/2025,,6/10/1984,1/6/2026,no,,Fanie,no,0,no,yes,yes,yes,0,0,yes,,Fleurissaint,CAP/SECH/ST00861,,,,7/18/2025 13:50,yes,,yes,839,9/1/2025
+4/7/2025,,6/11/2006,1/14/2026,no,7/17/2025,Rosilia,no,,yes,yes,yes,yes,0,0,yes,7/17/2025,Saintil,CAP/SECH/ST00863,0,,,7/18/2025 13:56,yes,,yes,1780,9/1/2025
+2/1/2025,,8/30/1996,11/7/2025,no,,Miguenise,no,0,no,yes,yes,yes,0,0,yes,,Bertyl,CAP/SECH/ST00864,,,,7/18/2025 14:22,yes,,yes,79088,9/1/2025
+1/15/2025,,1/20/1984,10/22/2025,no,2/19/2025,Maurice,no,,yes,no,no,no,0,0,yes,9/19/2025,Yolene,PAP/GCHO/ST08034,0,,,7/21/2025 16:37,yes,,no,,
+8/23/2024,6/8/2025,12/20/2000,6/1/2025,no,,Wounedine(walondjie,no,yes,no,no,no,no,0,0,no,,Jean,CAP/CMBV/ST04044,,,,7/23/2025 13:04,yes,,no,,
+10/22/2024,7/22/2025,2/25/1989,7/29/2025,yes,,Christella,yes,yes,no,no,no,no,0,0,yes,,Pierre,CAP/CMBV/ST03930,,,,7/23/2025 13:14,yes,,no,,
+12/10/2024,,2/7/1992,9/17/2025,yes,,Yveline,no,,no,yes,no,no,0,0,yes,,Orneus,CAP/CMBV/ST03338,0,,,7/23/2025 13:35,yes,,yes,839,6/15/2025
+5/10/2025,,6/15/1994,2/17/2026,no,9/23/2025,Lovelie,no,0,yes,no,no,no,0,0,yes,9/23/2025,Jacques,CAP/HSCM/ST04459,,,,7/23/2025 15:10,yes,,yes,6894,9/24/2024
+11/10/2024,9/8/2025,10/12/1986,8/17/2025,yes,,Djennie,yes,no,no,no,no,no,0,0,yes,,Mondesir,CAP/HSCM/ST05026,,,,7/23/2025 15:18,yes,,no,,
+1/18/2025,,12/24/1994,10/25/2025,no,8/26/2025,Rose-Martha,no,0,yes,no,no,no,0,0,yes,9/30/2025,Raphael,SMA/CSSM/ST00769,,,,7/23/2025 15:22,yes,,no,0,6/27/2023
+11/15/2024,8/3/2025,7/7/1998,8/22/2025,yes,,Chedeline,yes,no,no,no,no,no,0,0,yes,,Pascal,CAP/HSCM/ST05013,,,,7/23/2025 15:25,yes,,no,,
+12/14/2024,,4/11/1998,9/21/2025,yes,3/11/2025,Avelina,no,,yes,no,no,no,0,0,yes,8/26/2025,Jacob,SMA/CSSM/ST01108,0,,,7/23/2025 15:25,yes,,no,,
+1/18/2025,,7/8/1988,10/25/2025,no,8/22/2025,Ketteline,no,0,yes,no,no,no,0,0,yes,8/22/2025,Metellus,PIG/CSSR/ST01023,,,,7/23/2025 19:17,yes,,no,,
+4/2/2025,,12/23/1995,1/9/2026,no,7/24/2025,Cardocia,no,,yes,no,no,no,0,0,yes,9/25/2025,Regis,CAP/CMBV/ST04091,0,,,7/25/2025 13:24,yes,,no,,
+2/12/2025,,2/14/1995,11/18/2025,no,7/24/2025,Lovelie,no,,yes,no,no,no,0,0,yes,9/25/2025,Charles,CAP/CMBV/ST03801,0,,,7/25/2025 13:29,yes,,no,,
+2/18/2025,,5/8/1997,11/25/2025,no,8/28/2025,Woudelande,no,,yes,no,no,no,0,0,yes,9/25/2025,Robillard,CAP/CMBV/ST04092,0,,,7/25/2025 13:41,yes,,no,,
+1/15/2025,,4/19/1989,10/22/2025,no,9/25/2025,Manise,no,0,yes,no,no,no,0,0,yes,9/25/2025,Fonrose,CAP/CALT/ST02909,,,,7/25/2025 14:14,yes,,no,,
+1/18/2025,,12/26/1986,10/25/2025,no,2/13/2025,Julienne,no,,yes,yes,no,no,0,0,yes,9/25/2025,Augustin,CAP/CALT/ST00214,0,,,7/25/2025 14:17,yes,,yes,838,12/26/2024
+5/15/2025,,6/15/1983,2/22/2026,no,8/20/2025,Annecie,no,0,yes,yes,yes,yes,0,0,yes,9/17/2025,Alexandre,CAP/CDSF/ST01118,,,,7/25/2025 15:47,yes,,yes,838,8/25/2025
+5/23/2025,,7/24/1986,2/28/2026,no,,Gina,no,,no,yes,yes,yes,0,0,yes,,Auguste,CAP/CDSF/ST01577,0,,,7/25/2025 15:52,yes,,yes,5804,7/14/2025
+6/3/2025,,6/25/1988,3/10/2026,no,8/19/2025,St Georges,no,,yes,no,no,no,0,0,yes,9/19/2025,Clermitha,MON/POZS/ST00576,0,,,7/28/2025 12:27,yes,,no,839,3/15/2002
+4/23/2025,,6/16/1994,1/30/2026,no,8/19/2025,Orisca,no,,yes,no,no,no,0,0,yes,9/19/2025,Ermilia,MON/POZS/ST00578,0,,,7/28/2025 12:28,yes,,no,839,7/7/2023
+2/11/2025,,1/20/1997,11/17/2025,no,3/12/2025,Carmelie,no,,yes,no,no,no,0,0,yes,9/19/2025,Vincent,MON/POZS/ST00492,0,,,7/28/2025 12:30,yes,,no,,
+3/22/2025,,9/9/1997,12/29/2025,no,,Landy,no,,no,yes,yes,yes,0,0,yes,,Dorcelus,PAP/HFSC/ST04889,0,,,7/28/2025 16:42,yes,,yes,40,8/27/2025
+2/15/2025,,2/28/1980,11/22/2025,no,,Fredeline,no,0,no,no,no,no,0,0,yes,,LEOPOLD,PAP/HFSC/ST02736,,,,7/28/2025 16:49,yes,,no,0,
+3/4/2025,,6/10/1989,12/11/2025,no,4/10/2025,Marie Caridad,no,0,yes,yes,no,no,0,0,yes,4/10/2025,Préval,GON/CSFA/ST01287,,,,7/29/2025 14:32,yes,,yes,0,11/19/2024
+3/2/2025,,8/27/1994,1/30/2026,no,,Rose Darline,no,0,no,yes,no,no,0,0,yes,,Dacceus,GON/CSFA/ST00063,,,,7/29/2025 14:42,yes,,yes,0,5/31/2025
+4/30/2025,,1/15/2004,2/7/2026,no,,Rose Darline,no,0,no,yes,yes,yes,0,0,yes,,Augustin,MCH/DSCA/ST02126,,,,7/29/2025 15:00,yes,,yes,0,7/25/2025
+1/15/2025,9/9/2025,8/22/2000,10/22/2025,no,8/13/2025,Vedeline,yes,no,yes,no,no,no,0,0,yes,10/9/2025,Paulimus,CAP/CMSO/ST03346,,,,7/29/2025 17:29,yes,,no,,
+4/15/2025,,5/18/1994,1/22/2026,no,9/17/2025,Eltalie,no,,yes,yes,no,no,0,0,yes,9/17/2025,Paul,CAP/CDSF/ST03370,0,,,7/29/2025 17:49,yes,,yes,838,10/14/2024
+1/15/2025,,5/29/1990,10/22/2025,no,,Roseline,no,0,no,no,no,no,0,0,yes,,Mucial,GON/CDIR/ST02476,yes,CDI Raboteau,Hopital,7/31/2025 18:20,yes,,no,,
+2/28/2025,,9/14/1985,,no,,Edna,no,,no,no,no,no,0,0,yes,,Fortuné,GON/CDIR/ST02478,yes,CDI Raboteau,Hopital,7/31/2025 18:25,yes,,no,,
+3/15/2025,,6/1/1983,12/22/2025,no,,Evelyne,no,0,no,yes,no,no,0,0,yes,,cerant,CAP/CDSF/ST02439,,,,7/31/2025 19:05,yes,,yes,5050,6/28/2025
+2/8/2025,,2/9/2001,11/15/2025,no,8/22/2025,Midiane,no,0,yes,no,no,no,0,0,yes,9/12/2025,Jean,PIG/CSSR/ST01025,,,,8/1/2025 12:43,yes,,no,,
+5/1/2025,,7/28/1992,2/8/2026,no,,Chedeline,no,0,no,no,no,no,0,0,yes,,Costume,PIG/CSSR/ST01024,,,,8/1/2025 12:49,yes,,no,,
+2/23/2025,,8/19/1985,11/30/2025,no,,Nodeline,no,0,no,no,no,no,0,0,yes,,Seant,GRO/HAMG/ST03752,yes,,Hopital,8/1/2025 18:07,yes,,no,,
+11/7/2024,8/10/2025,1/29/1991,8/14/2025,yes,,Esther,yes,no,no,yes,no,no,0,0,yes,,Jean Baptiste,GRO/HAMG/ST02754,,,,8/1/2025 18:14,yes,,yes,0,6/25/2025
+2/18/2025,,10/19/1989,11/25/2025,no,,Manette,no,0,no,yes,no,no,0,0,yes,,Fertilus,GRO/HAMG/ST02294,,,,8/1/2025 18:20,yes,,yes,0,1/30/2025
+12/28/2024,,7/4/1984,10/4/2025,yes,2/27/2025,Matilde,no,0,yes,yes,no,no,0,0,yes,2/27/2025,Joseph,GRO/HAMG/ST03084,,,,8/4/2025 17:34,yes,,yes,0,1/9/2025
+11/15/2024,,7/12/2007,8/22/2025,yes,,Marcelus,no,,no,no,no,no,0,0,yes,,Sasaina,PAP/HFSC/ST04912,0,,,8/6/2025 11:04,yes,,no,,
+5/10/2025,,3/29/1997,2/17/2026,no,,Witzanisla,no,0,no,yes,no,no,0,0,yes,,Alterna,GON/CSKS/ST03064,,,,8/6/2025 15:43,yes,,yes,0,5/9/2025
+2/15/2025,,6/24/1997,11/21/2025,no,,Roldine,no,,no,yes,yes,yes,0,0,yes,,Davilma,GON/CSKS/ST03170,0,,,8/6/2025 15:48,yes,,yes,0,8/6/2025
+1/19/2025,,4/19/1992,10/26/2025,no,,Anna,no,,no,no,no,no,0,0,yes,,Pierre,GON/CSKS/ST03177,0,,,8/6/2025 15:54,yes,,no,,
+4/11/2025,,5/8/1988,1/18/2026,no,,Rosena,no,,no,no,no,no,0,0,yes,,Soilné,GON/CSKS/ST03180,0,,,8/6/2025 15:57,yes,,no,,
+1/29/2025,,2/14/1996,11/6/2025,no,8/20/2025,Shenaika Darline,no,0,yes,yes,yes,yes,0,0,yes,8/20/2025,Pierre Noel,GON/CSKS/ST00924,,,,8/6/2025 16:08,yes,,yes,0,8/29/2025
+11/26/2024,8/3/2025,7/13/1998,8/2/2025,yes,,Madiala,yes,no,no,yes,yes,yes,0,0,yes,,Desir,ENN/HTLO/ST00789,,,,8/6/2025 16:32,yes,,yes,0,8/11/2025
+2/16/2025,,2/14/2002,11/23/2025,no,,Ketty,no,,no,no,no,no,0,0,yes,,Saintilien,ENN/HTLO/ST00803,0,,,8/6/2025 16:36,yes,,no,,
+3/13/2025,,3/9/2006,12/22/2025,no,,Yvonise,no,,no,no,no,no,0,0,yes,,Innocent,ENN/HTLO/ST00805,0,,,8/6/2025 16:40,yes,,no,,
+2/15/2025,,5/13/1996,11/22/2025,no,,Fucienne,no,,no,no,no,no,0,0,yes,,Compère,ENN/HTLO/ST00806,0,,,8/6/2025 16:43,yes,,no,,
+4/1/2025,,4/15/1988,1/8/2026,no,7/11/2025,Roudeline,no,0,yes,yes,no,no,0,0,yes,9/12/2025,Metellus,LIM/HOSJ/ST02324,,,,8/7/2025 13:43,yes,1,yes,839,12/12/2024
+2/25/2025,,8/11/1989,12/2/2025,no,7/11/2025,litane,no,,yes,no,no,no,0,0,yes,7/11/2025,Saintilmond,LIM/HOSJ/ST02141,0,,,8/7/2025 18:36,yes,,no,,
+1/15/2025,,8/28/2000,10/22/2025,no,,Souffrant,no,0,no,yes,yes,yes,0,0,yes,,Cerandienne,CAP/NEWH/ST00576,,,,8/8/2025 13:38,yes,,yes,1674,9/2/2025
+2/15/2025,,3/10/1988,11/22/2025,no,,Phadeline,no,,no,no,no,no,0,0,yes,,Magloire,CAP/CDSF/ST01722,0,,,8/8/2025 17:20,yes,,no,,
+3/15/2025,,1/6/1986,12/22/2025,no,8/8/2025,Marie Lucie,no,0,yes,no,no,no,0,0,yes,9/12/2025,Pierre,LIM/HOSJ/ST01591,,,,8/11/2025 14:22,yes,,no,0,
+5/10/2025,,9/15/2001,2/17/2026,no,9/12/2025,Bernise,no,,yes,yes,no,no,0,0,yes,9/12/2025,Prenelon,LIM/HOSJ/ST02937,0,,,8/11/2025 14:31,yes,,yes,839,12/31/2024
+4/13/2025,,9/29/1996,1/20/2026,no,8/22/2025,Vanessa,no,0,yes,no,no,no,0,0,yes,9/12/2025,Thelor,PIG/CSSR/ST01027,,,,8/11/2025 19:17,yes,,no,,
+5/15/2025,,7/1/2000,2/22/2026,no,8/22/2025,Sandra,no,0,yes,no,no,no,0,0,yes,9/12/2025,Pierre,PIG/CSSR/ST01026,,,,8/11/2025 19:24,yes,,no,,
+6/15/2025,,2/28/1990,3/22/2026,no,,Edeline,no,0,no,no,no,no,0,0,yes,,Derval,CAP/HSCM/ST05029,,,,8/11/2025 19:41,yes,,no,,
+11/25/2024,9/3/2025,4/30/1987,9/2/2025,yes,,Marie Ange,yes,no,no,yes,no,no,0,0,yes,,Aimé,GRO/HAMG/ST03656,,,,8/14/2025 14:45,yes,,yes,0,6/17/2025
+2/11/2025,,7/17/1989,11/18/2025,no,8/28/2025,Nadège,no,,yes,no,no,no,0,0,yes,8/28/2025,Marcelus,PAP/HSFS/ST01958,0,,,8/18/2025 14:55,yes,,no,0,
+5/13/2025,,1/10/1997,2/20/2026,no,,Milien,no,,no,no,no,no,0,0,yes,,Elneda,PAP/GCHO/ST08983,0,,,8/18/2025 15:17,yes,,no,,
+6/5/2025,,7/2/1994,3/12/2026,no,,Emmanuella,no,,no,no,no,no,0,0,yes,,Luxama,PAP/GCHO/ST08971,0,,,8/18/2025 15:21,yes,,no,,
+6/1/2025,,1/1/1985,3/8/2026,no,8/13/2025,Roselene,no,0,yes,no,no,no,0,0,yes,10/9/2025,Debonheur,CAP/CMSO/ST00235,,,,8/18/2025 15:41,yes,,yes,838,9/10/2024
+4/19/2025,,6/25/1993,1/26/2026,no,,Gerdaille,no,,no,no,no,no,0,0,yes,,Joseph,PAP/CMSP/ST02044,0,,,8/18/2025 16:01,yes,,no,,
+6/22/2025,,5/1/1996,3/29/2026,no,8/13/2025,Katiana,no,,yes,no,no,no,0,0,yes,10/9/2025,Badio,CAP/CMSO/ST01518,0,,,8/18/2025 19:40,yes,,no,838,3/31/2024
+4/21/2025,,10/6/1991,1/28/2026,no,8/28/2025,Darline(Ronise),no,0,yes,yes,no,no,0,0,yes,8/28/2025,Jean,CAP/CALT/ST00190,,,,8/20/2025 13:19,yes,,yes,0,6/10/2025
+5/15/2025,,7/1/1998,2/22/2026,no,8/28/2025,MARIANISE(KAYI),no,,yes,yes,yes,yes,0,0,yes,8/28/2025,DASSAS,CAP/CALT/ST02007,0,,,8/20/2025 13:35,yes,,yes,0,7/29/2025
+4/15/2025,,10/17/1997,1/22/2026,no,,Kinderlie,no,0,no,no,no,no,0,0,yes,,Pierre,CAP/CALT/ST02921,,,,8/20/2025 13:38,yes,,no,,
+1/22/2025,9/24/2025,10/9/1992,10/29/2025,no,8/28/2025,Ruth,yes,no,yes,yes,yes,yes,0,0,yes,9/25/2025,Estidor,CAP/CALT/ST02923,,,,8/20/2025 13:43,yes,,yes,1739,9/10/2025
+4/25/2025,,8/2/1986,2/1/2026,no,8/20/2025,Ylanne,no,,yes,no,no,no,0,0,yes,9/17/2025,Pierre,CAP/CDSF/ST03005,0,,,8/21/2025 14:05,yes,,yes,838,9/27/2024
+2/28/2025,,12/30/1985,12/5/2025,no,,Lauriane,no,,no,no,no,no,0,0,yes,,Garcon,GON/CSKS/ST03186,0,,,8/21/2025 14:11,yes,,no,,
+4/15/2025,,1/6/2005,1/22/2026,no,,Daphney,no,,no,no,no,no,0,0,yes,,Blaise,GON/CSKS/ST03190,0,,,8/21/2025 14:18,yes,,no,,
+2/22/2025,,1/17/1994,11/29/2025,no,,Rose Darline,no,,no,yes,no,no,0,0,yes,,Desrosiers,PAP/HOCH/ST00500,0,,,8/21/2025 14:24,yes,,yes,839,5/30/2025
+3/20/2025,,5/26/1997,12/27/2025,no,8/22/2025,Ritha,no,0,yes,no,no,no,0,0,yes,9/12/2025,Dorena,PIG/CSSR/ST01029,,,,8/21/2025 17:39,yes,,no,,
+3/25/2025,,7/2/2002,1/2/2026,no,,Cherlanda,no,0,no,no,no,no,0,0,yes,,Noel,PIG/CSSR/ST01030,,,,8/21/2025 17:53,yes,,no,,
+2/15/2025,,12/25/2000,11/22/2025,no,8/22/2025,Guerline,no,0,yes,no,no,no,0,0,yes,9/12/2025,Dorvil,PIG/CSSR/ST01028,,,,8/21/2025 17:58,yes,,no,,
+5/8/2025,,3/8/1992,2/15/2026,no,,Rose Carmene,no,0,no,no,no,no,0,0,yes,,Verdine,CAP/CSLT/ST01240,,,,8/21/2025 19:49,yes,,no,,
+12/1/2024,,1/8/2000,9/8/2025,yes,,Anne-Rose,no,,no,no,no,no,0,0,yes,,Augustin,CAP/SECH/ST00867,0,,,8/22/2025 13:50,yes,,no,,
+12/14/2024,,1/9/1996,9/21/2025,yes,,Filise,no,,no,yes,yes,yes,0,0,yes,,Alcide,CAP/SECH/ST00866,0,,,8/22/2025 13:55,yes,,yes,839,9/1/2025
+12/8/2024,,11/2/1998,9/15/2025,yes,,Angeline,no,0,no,yes,yes,yes,0,0,yes,,Simeon,CAP/SECH/ST00868,,,,8/22/2025 13:59,yes,1,yes,821614,9/1/2025
+12/25/2024,,8/22/2002,10/1/2025,yes,,Louise-Marie,no,,no,no,no,no,0,0,yes,,Menard,CAP/SECH/ST00870,0,,,8/22/2025 14:02,yes,,no,,
+6/1/2025,,10/11/2005,3/8/2026,no,, Cassandra,no,0,no,no,no,no,0,0,yes,,francois,PAP/GCHO/ST04909,,,,8/22/2025 14:43,yes,1,no,,
+4/24/2025,,4/26/2004,1/31/2026,no,,Dieuline,no,0,no,no,no,no,0,0,yes,,Pierre,CAP/HSCM/ST05038,,,,8/27/2025 13:05,yes,,no,,
+12/18/2024,9/18/2025,8/21/2001,9/25/2025,yes,,Solanda,yes,no,no,no,no,no,0,0,yes,,Guerrier,CAP/HSCM/ST05039,,,,8/27/2025 13:22,yes,,no,,
+5/15/2025,,1/4/2001,2/22/2026,no,9/25/2025,Jean,no,,yes,yes,yes,yes,0,0,yes,9/25/2025,Saindy,CAP/CMBV/ST03601,0,,,8/29/2025 12:44,yes,,yes,839,9/25/2025
+3/3/2025,,6/15/2005,12/10/2025,no,8/28/2025,Jacques,no,0,yes,yes,no,no,0,0,yes,8/28/2025,Johanne,CAP/CALT/ST02501,,,,8/29/2025 13:03,yes,,yes,838,1/24/2025
+2/28/2025,,7/1/1998,12/5/2025,no,,Lamercie,no,0,no,yes,yes,yes,0,0,yes,,Jean,CAP/CALT/ST02928,,,,8/29/2025 13:40,yes,,yes,839,9/16/2025
+2/20/2025,,8/19/1999,11/27/2025,no,2/21/2025,Elvitha,no,,yes,yes,no,no,0,0,yes,4/17/2025,Fevrier,GRO/HAMG/ST02624,0,,,8/29/2025 15:50,yes,,yes,0,7/2/2025
+12/12/2024,,8/15/1996,9/19/2025,yes,,Yvertha,no,,no,yes,no,no,0,0,yes,,Dormeus,GRO/HAMG/ST03399,0,,,8/29/2025 15:54,yes,,yes,838,2/11/2025
+5/30/2025,,6/15/1988,3/5/2026,no,8/22/2025,Yoldie,no,0,yes,yes,no,no,0,0,yes,9/19/2025,Cherizol,PIL/HOEP/ST02324,,,,9/3/2025 14:16,yes,,yes,839,12/31/2024
+1/13/2025,9/19/2025,5/5/1995,10/20/2025,no,,Roselore,yes,0,no,yes,yes,yes,0,0,yes,,Thelemarque,CAP/NEWH/ST00573,,,,9/4/2025 12:44,yes,,yes,2550,8/1/2025
+2/4/2025,,10/5/2008,11/11/2025,no,9/17/2025,Taicha,no,0,yes,no,no,no,0,0,yes,9/17/2025,Elleva,CAP/CDSF/ST03541,,,,9/4/2025 17:47,yes,,no,,
+,1/7/2025,12/3/1993,,no,,Silfanie,no,yes,no,no,no,no,0,0,no,,Noel,CAP/CDSF/ST03232,,,,9/4/2025 17:55,yes,,no,3454,11/30/2022
+,2/19/2025,1/11/1988,,no,,Wilnise,no,yes,no,no,no,no,1,0,no,,Toussaint,CAP/CDSF/ST01433,,,,9/4/2025 18:13,yes,,no,,
+12/15/2024,,11/2/1994,9/22/2025,yes,,Maridelene,no,,no,no,no,no,0,0,yes,,Jeune,GON/CSAR/ST00750,0,,,9/5/2025 16:22,yes,,no,,
+12/10/2024,,10/2/1995,9/17/2025,yes,,Michelouna,no,,no,yes,no,no,0,0,yes,,Joseph,GON/CSTB/ST00634,0,,,9/5/2025 16:37,yes,,yes,0,6/16/2025
+1/7/2025,,1/15/1982,10/14/2025,no,9/17/2025,Gertrude,no,,yes,yes,no,no,0,0,yes,9/17/2025,Philema,GON/CSTB/ST00745,0,,,9/5/2025 16:43,yes,,yes,2827,6/12/2025
+6/15/2025,,1/24/1993,3/22/2026,no,,Westencia Edmond,no,,no,no,no,no,0,0,yes,,FERDINAND,PAP/HOCH/ST00400,0,,,9/5/2025 18:02,yes,,no,0,
+2/8/2025,,7/1/1987,11/15/2025,no,,Angena,no,0,no,no,no,no,0,0,yes,,Devisca,PIG/HOBP/ST01651,,,,9/8/2025 13:06,yes,,no,,
+10/7/2024,7/22/2025,5/21/1998,7/14/2025,yes,,Frideline,yes,yes,no,no,no,no,0,0,yes,,Registre,PIG/HOBP/ST01691,,,,9/8/2025 14:42,yes,,no,,
+7/12/2024,4/19/2025,1/19/1998,4/19/2025,no,,Katiana,no,0,no,no,no,no,0,0,no,,Alexandre,PIG/HOBP/ST01743,,,,9/8/2025 15:08,yes,,no,,
+12/15/2014,7/22/2025,6/9/1992,9/22/2025,yes,,Soule,yes,0,no,no,no,no,0,0,yes,,Dantil,PIG/HOBP/ST00961,,,,9/8/2025 15:20,yes,,no,,
+12/16/2024,,6/6/2005,9/23/2025,yes,,Lourdjina,no,0,no,no,no,no,0,0,yes,,Previl,PIG/HOBP/ST01844,,,,9/8/2025 15:28,yes,,no,,
+9/1/2024,6/7/2025,11/30/1992,6/7/2025,no,,Sizena,no,,no,no,no,no,0,0,no,,Fucien,PIG/HOBP/ST01539,0,,,9/8/2025 15:32,yes,,no,0,10/5/2021
+2/20/2025,,7/1/1998,11/22/2025,no,,Lamercie,no,0,no,no,no,no,0,0,yes,,Jean,CAP/CALT/ST02028,,,,9/8/2025 15:52,yes,,no,,
+1/4/2025,,6/30/1982,9/11/2025,yes,12/5/2024,Rosemita,no,,yes,no,no,no,0,0,yes,4/16/2025,MICHEL,PAP/NPFS/ST03159,0,,,9/8/2025 15:56,yes,,no,39,2/21/2024
+,,7/15/2003,,no,,Nadege,no,0,no,no,no,no,0,0,no,,Joseph,GON/SERV/ST00488,,,,9/8/2025 18:18,yes,1,no,,
+1/4/2025,9/23/2025,9/22/1983,10/11/2025,yes,,Helene,yes,no,no,no,no,no,0,0,yes,,Supreme,GON/SERV/ST01028,,,,9/8/2025 18:22,yes,,no,,
+,,7/1/1987,,no,,Floraine,no,,no,yes,yes,yes,0,0,no,,Verty,GON/CSTB/ST00754,0,,,9/8/2025 19:24,yes,,yes,9761,9/9/2025
+3/25/2025,,2/2/2006,12/31/2025,no,,Alexandra,no,,no,no,no,no,0,0,yes,,Pyronneau,LIM/HOSJ/ST03663,0,,,9/10/2025 13:02,yes,,no,,
+1/15/2025,,11/10/1997,10/22/2025,no,,OLANDAISE,no,0,no,yes,no,no,0,0,yes,,JEAN PHILIPPE,GRO/HAMG/ST02095,,,,9/10/2025 16:51,yes,,yes,0,12/6/2024
+6/15/2025,,2/6/1997,3/22/2026,no,,Came,no,,no,no,no,no,0,0,yes,,Augustin,CAP/CDSF/ST03536,0,,,9/12/2025 14:08,yes,,no,,
+5/20/2025,,8/11/2007,2/27/2026,no,,Roseline,no,,no,no,no,no,0,0,yes,,Gentil,FOS/CLPV/ST01131,0,,,9/12/2025 15:57,yes,,no,0,
+2/8/2025,,12/11/1992,11/15/2025,no,,Heureuse,no,,no,no,no,no,0,0,yes,,Pétion,PAP/CMSP/ST02023,0,,,9/14/2025 22:56,yes,,no,,
+3/15/2025,,9/8/1996,12/22/2025,no,,Nelsa,no,,no,no,no,no,0,0,yes,,Tazie,PAP/CMSP/ST02031,0,,,9/14/2025 23:01,yes,,no,,
+3/3/2025,,11/10/1990,12/10/2025,no,,Fabienne,no,,no,no,no,no,0,0,yes,,Joseph,PAP/CMSP/ST02026,0,,,9/14/2025 23:05,yes,,no,,
+2/20/2025,,9/15/1987,11/27/2025,no,,Mirlène ,no,,no,no,no,no,0,0,yes,,Celonnel,PAP/CMSP/ST02024,0,,,9/14/2025 23:15,yes,,no,0,
+3/15/2025,,9/8/1992,12/22/2025,no,,Denise,no,0,no,no,no,no,0,0,yes,,Fontin,PAP/CMSP/ST02045,,,,9/14/2025 23:22,yes,,no,,
+2/8/2025,,2/6/2006,11/15/2025,no,,Miralène ,no,,no,no,no,no,0,0,yes,,Seisme,PAP/CMSP/ST02029,0,,,9/14/2025 23:28,yes,,no,,
+2/1/2025,,3/7/1996,11/8/2025,no,,Nezeline ,no,0,no,no,no,no,0,0,yes,,Francois,PAP/CMSP/ST02032,,,,9/15/2025 0:00,yes,,no,,
+3/20/2025,,3/26/1994,12/27/2025,no,,Michel Ange,no,,no,no,no,no,0,0,yes,,Florian,PAP/CMSP/ST02037,0,,,9/15/2025 0:07,yes,,no,,
+3/18/2025,,10/14/1992,12/25/2025,no,,Elitane ,no,,no,no,no,no,0,0,yes,,Milien,PAP/CMSP/ST02028,0,,,9/15/2025 0:12,yes,,no,,
+3/15/2025,,5/4/2005,12/22/2025,no,9/17/2025,Juslaine,no,,yes,no,no,no,0,0,yes,9/17/2025,Justin,GON/CSKS/ST03192,0,,,9/15/2025 20:01,yes,,no,,
+,,4/23/2003,,no,,Rose Carline,no,0,no,no,no,no,0,0,no,,Joseph,GON/CSKS/ST03198,,,,9/15/2025 20:06,yes,,no,,
+,,7/29/2001,,no,,Lovemie,no,0,no,no,no,no,0,0,no,,Vertusma,GON/CSKS/ST03200,,,,9/15/2025 20:12,yes,,no,,
+12/15/2024,10/7/2025,5/21/1994,9/22/2025,yes,,Nikèse,yes,no,no,no,no,no,0,0,yes,,Maurice,GON/CSKS/ST03201,,,,9/15/2025 20:19,yes,,no,,
+3/15/2025,,7/28/2000,12/22/2025,no,9/17/2025,Dieulineda,no,,yes,no,no,no,0,0,yes,9/17/2025,Jesula,GON/CSKS/ST03202,0,,,9/15/2025 20:24,yes,,no,,
+4/25/2025,,4/19/1994,1/1/2026,no,,Chrismene,no,0,no,no,no,no,0,0,yes,,Rosima,GON/CSKS/ST03203,,,,9/15/2025 20:26,yes,,no,,
+1/29/2025,,6/1/1987,11/6/2025,no,,Elida,no,0,no,no,no,no,0,0,yes,,Jean,GON/CSKS/ST00305,,,,9/17/2025 21:25,yes,,no,,
+4/15/2025,,2/13/2006,2/22/2026,no,,Ashley,no,0,no,no,no,no,0,0,yes,,Abrican,GON/CSKS/ST03195,,,,9/17/2025 21:31,yes,,no,,
+1/12/2025,,8/19/2005,10/19/2025,no,,Nana,no,0,no,no,no,no,0,0,yes,,Cheramy,CAP/HSCM/ST05046,,,,9/18/2025 14:02,yes,,no,,
+6/18/2025,,1/27/1989,3/25/2026,no,,Gertrude,no,,no,no,no,no,0,0,yes,,Colas,CAP/HSCM/ST04495,0,,,9/18/2025 14:06,yes,,no,,
+,,3/12/1995,,no,,Roselande,no,,no,no,no,no,0,0,no,,Normil,GON/CSKS/ST01056,0,,,9/22/2025 19:02,yes,,no,0,2/19/2024
+3/23/2025,,7/8/1992,12/30/2025,no,,ROSITANE,no,,no,yes,yes,yes,0,0,yes,,DIEUSEUL,PAP/NPFS/ST03390,0,,,9/23/2025 10:44,yes,,yes,1122,9/2/2025
+6/1/2025,,5/20/1999,3/8/2026,no,,Antonia,no,0,no,no,no,no,0,0,yes,,Pierre,PIL/HOEP/ST03570,,,,9/23/2025 18:03,yes,,no,,
+,,12/6/1987,,no,,Martine/Marceline,no,,no,no,no,no,0,0,no,,Pauleus/Polynice,GON/CSKS/ST01880,0,,,9/24/2025 14:26,yes,,no,,
+3/13/2025,,10/17/1993,12/20/2025,no,,Ermanda,no,,no,no,no,no,0,0,yes,,Metayer,GON/CSKS/ST03206,0,,,9/24/2025 14:30,yes,,no,,
+3/3/2025,,10/24/2007,12/10/2025,no,,Alexandra Sendra,no,,no,no,no,no,0,0,yes,,Joseph,CAP/CDSF/ST03545,0,,,9/24/2025 15:04,yes,,no,,
+4/2/2025,,11/3/1985,1/9/2026,no,,Odymene,no,0,no,no,no,no,0,0,yes,,Chery,CAP/HSCM/ST05054,,,,9/24/2025 15:18,yes,,no,,
+2/24/2025,,11/2/2007,12/1/2025,no,,Berline,no,,no,no,no,no,0,0,yes,,Jean Felix,PAP/FONP/ST02491,0,,,9/24/2025 17:37,yes,,no,,
+3/26/2025,,8/29/2006,1/2/2026,no,,Erika,no,,no,no,no,no,0,0,yes,,Charles,PAP/FONP/ST02497,0,,,9/24/2025 17:40,yes,,no,,
+5/4/2025,,12/8/1990,2/11/2026,no,,Marie-Carme,no,,no,no,no,no,0,0,yes,,Grabriel,PAP/FONP/ST02489,0,,,9/24/2025 17:42,yes,,no,,
+3/22/2025,,6/16/1995,12/28/2025,no,,Dany,no,0,no,no,no,no,0,0,yes,,Paul,PAP/FONP/ST01628,,,,9/24/2025 17:44,yes,,no,838,4/29/2020
+5/10/2025,,9/27/2003,2/17/2026,no,,Chantale,no,,no,no,no,no,0,0,yes,,Nozil,PAP/FONP/ST02495,0,,,9/24/2025 17:52,yes,,no,,
+3/20/2025,,11/22/1998,12/27/2025,no,3/27/2025,Dieuline,no,,yes,no,no,no,0,0,yes,4/23/2025,Noël,PAP/FONP/ST02147,0,,,9/24/2025 17:54,yes,,no,,
+6/10/2025,,4/26/1985,3/17/2026,no,,Sherline,no,,no,no,no,no,0,0,yes,,Jean,PAP/FONP/ST02269,0,,,9/24/2025 17:57,yes,,no,,
+1/13/2025,,2/13/1994,10/20/2025,no,,Stéphanie,no,0,no,yes,no,no,0,0,yes,,Francillon,PAP/HFSC/ST04724,,,,9/25/2025 13:16,yes,,yes,39,6/30/2025
+3/15/2025,,8/4/2005,12/22/2025,no,,Diana,no,0,no,no,no,no,0,0,yes,,Saintilus,PAP/HFSC/ST04955,,,,9/25/2025 13:20,yes,,no,,
+5/7/2025,,5/13/1999,2/14/2026,no,,Elianette,no,0,no,yes,yes,yes,0,0,yes,,Thelusma,PAP/HFSC/ST04735,,,,9/25/2025 13:23,yes,,yes,839,8/29/2025
+3/1/2025,,2/29/1996,12/8/2025,no,3/20/2025,Magna Esther,no,0,yes,yes,no,no,0,0,yes,9/25/2025,Joseph,CAP/CALT/ST01746,,,,9/26/2025 13:33,yes,,yes,838,12/12/2024
+7/16/2025,,11/7/1998,4/23/2026,no,9/25/2025,PATRICIA,no,0,yes,yes,yes,yes,0,0,yes,9/25/2025,ANTOINE,CAP/CALT/ST01173,,,,9/26/2025 17:12,yes,,yes,838,9/19/2025
+5/15/2025,,11/9/1980,2/22/2026,no,9/25/2025,Betty,no,,yes,no,no,no,0,0,yes,9/25/2025,Aristilde,CAP/CALT/ST01222,0,,,9/26/2025 17:19,yes,,no,0,11/20/2023
+6/16/2025,,4/14/1985,3/23/2026,no,,Merline,no,0,no,yes,no,no,0,0,yes,,Mompremier,CAP/CALT/ST01582,,,,9/26/2025 18:08,yes,,yes,836,1/6/2025
+1/19/2025,,5/11/2005,10/26/2025,no,,Rose-Carmelle,no,,no,yes,yes,yes,0,0,yes,,Sainvil,CAP/CALT/ST02637,0,,,9/26/2025 18:11,yes,,yes,838,8/6/2025
+12/15/2024,9/25/2025,1/19/2001,9/22/2025,yes,,Martine,yes,no,no,yes,yes,yes,0,0,yes,,Youmie,CAP/CALT/ST02313,,,,9/26/2025 18:16,yes,,yes,24350,7/25/2025
+1/3/2025,,1/7/1999,10/24/2025,yes,1/9/2025,Julienne,no,0,yes,yes,yes,yes,0,0,yes,3/13/2025,Cineus,ENN/HTLO/ST00381,,,,9/26/2025 19:15,yes,,yes,0,9/8/2025
+6/3/2025,,10/10/1995,3/10/2026,no,,Auguste,no,,no,no,no,no,0,0,yes,,Natacha,ENN/HTLO/ST00813,0,,,9/26/2025 19:20,yes,,no,,
+2/15/2025,,4/15/1996,11/22/2025,no,,Nelta,no,0,no,yes,no,no,0,0,yes,,Jean,PAP/GCHO/ST08739,,,,9/29/2025 1:54,yes,,yes,38,4/21/2025
+1/24/2025,,11/2/2007,10/31/2025,no,,Berline,no,,no,no,no,no,0,0,yes,,Jean Felix,PAP/GCHO/ST08964,0,,,9/29/2025 2:01,yes,,no,,
+6/15/2025,,4/25/1996,3/22/2026,no,,Magalie,no,,no,yes,yes,yes,0,0,yes,,Pierre,PAP/GCHO/ST08974,0,,,9/29/2025 2:06,yes,,yes,106,9/9/2025
+7/15/2025,,12/30/1986,4/22/2026,no,,Roselene ,no,,no,no,no,no,0,0,yes,,Thermilus,PAP/GCHO/ST08992,0,,,9/29/2025 2:09,yes,,no,,
+4/10/2025,,8/21/1999,1/17/2026,no,,Sherood,no,0,no,yes,yes,yes,0,0,yes,,Lubin,PAP/NPFS/ST04533,,,,9/29/2025 2:24,yes,,yes,39,9/29/2025
+3/15/2025,,5/16/2005,12/20/2025,no,,Ichenayda,no,0,no,no,no,no,0,0,yes,,Monrecent,GON/SERV/ST00766,,,,9/29/2025 16:28,yes,,no,,
+1/4/2025,,9/6/2004,10/7/2025,yes,,Marc Berline,no,,no,no,no,no,0,0,yes,,Gelin,GON/SERV/ST00960,0,,,9/29/2025 16:38,yes,,no,,
+3/12/2025,,6/6/1986,12/17/2025,no,,Rose-Mirlande,no,,no,no,no,no,0,0,yes,,Boyer,CAP/CMBV/ST04126,0,,,9/29/2025 18:38,yes,,no,,
+3/14/2025,,6/6/1986,12/21/2025,no,,Youseline,no,,no,no,no,no,0,0,yes,,Orelus,CAP/CMBV/ST04125,0,,,9/29/2025 18:44,yes,,no,,
+,9/28/2025,1/24/1993,,no,,Samentha,yes,,no,no,no,no,0,0,no,,Dorvil,CAP/CALT/ST01670,0,,,9/30/2025 19:23,yes,,no,,
+5/15/2025,,3/13/1988,1/22/2026,no,9/12/2025,Guerline,no,,yes,yes,yes,yes,0,0,yes,9/12/2025,Joseph,LIM/HOSJ/ST03222,0,,,10/1/2025 13:45,yes,,yes,839,9/10/2025
+3/15/2025,,9/15/2004,12/22/2025,no,,Langena,no,0,no,no,no,no,0,0,yes,,Jasmin,CAP/CDSF/ST02271,,,,10/1/2025 19:37,yes,,no,71470,3/13/2024
+7/6/2025,,4/1/1995,4/13/2026,no,,Rachelle,no,,no,no,no,no,0,0,yes,,Sainteau,PAP/HSFS/ST01969,0,,,10/6/2025 0:42,yes,,no,,
+6/8/2025,,5/12/2000,3/15/2026,no,,Christine,no,,no,no,no,no,0,0,yes,,Bellame,PAP/NPFS/ST00224,0,,,10/6/2025 0:44,yes,,no,39,2/21/2024
+7/27/2025,,9/15/1996,5/4/2026,no,,Maillela,no,0,no,no,no,no,0,0,yes,,Fortilus,PAP/NPFS/ST04572,,,,10/6/2025 0:45,yes,,no,,
+1/25/2025,,4/10/2000,12/1/2025,no,,Lovely,no,,no,no,no,no,0,0,yes,,Charles,PIG/CSSR/ST01033,0,,,10/6/2025 14:06,yes,,no,,
+7/26/2025,,9/22/2003,5/3/2026,no,,Shilove,no,0,no,no,no,no,0,0,yes,,Daniel,PIG/CSSR/ST01035,,,,10/6/2025 14:10,yes,,no,,
+4/10/2025,,4/15/2007,1/17/2026,no,8/7/2025,Medjina,no,0,yes,yes,yes,yes,0,0,yes,8/7/2025,Amboise,PAP/NPFS/ST01335,,,,10/6/2025 16:03,yes,,yes,39,9/15/2025
+2/20/2025,,7/9/1996,11/27/2025,no,3/28/2025,Justin,no,,yes,no,no,no,0,0,yes,3/28/2025,Loudia,FOP/HCPT/ST00769,0,,,10/7/2025 13:21,yes,,no,,
+1/15/2025,,7/1/2000,10/22/2025,no,,Valery,no,,no,no,no,no,0,0,yes,,Vil,FOP/HCPT/ST00353,0,,,10/7/2025 13:25,yes,,no,,
+1/15/2025,,8/13/1986,10/22/2025,no,,Geraldine,no,,no,no,no,no,0,0,yes,,Pascal,FOP/HCPT/ST01392,0,,,10/7/2025 13:31,yes,,no,,
+1/19/2025,,,10/26/2025,no,,Darlene,no,,no,no,no,no,0,0,yes,,Anelson,FOP/HCPT/ST01404,0,,,10/7/2025 13:41,yes,,no,,
+6/15/2025,,8/12/1995,3/21/2026,no,,Veroselene,no,,no,no,no,no,0,0,yes,,Catel,FOP/HCPT/ST01407,0,,,10/7/2025 13:45,yes,,no,,
+3/17/2025,,7/1/1983,12/24/2025,no,,Lansie,no,,no,no,no,no,0,0,yes,,Prospere,FOP/HCPT/ST01186,0,,,10/7/2025 13:52,yes,,no,,
+4/15/2025,,3/3/1993,1/20/2026,no,,Kimberly,no,0,no,no,no,no,0,0,yes,,Dophyne,FOP/HCPT/ST01414,,,,10/7/2025 14:14,yes,,no,,
+6/20/2025,,1/24/1993,3/27/2026,no,,Westencia Edmond,no,,no,yes,no,no,0,0,yes,,Ferdinand,PAP/CSPL/ST02697,0,,,10/7/2025 14:29,yes,,yes,838,12/11/2024
+6/26/2025,,9/18/1988,4/3/2026,no,,Germelie,no,0,no,no,no,no,0,0,yes,,Bazile,MCH/DSCA/ST02265,,,,10/9/2025 19:42,yes,,no,,
+5/15/2025,,1/10/2005,2/22/2026,no,,Louinise,no,,no,no,no,no,0,0,yes,,Michel,CAP/CMCD/ST01957,0,,,10/10/2025 12:30,yes,,no,,
+4/25/2025,,3/7/1998,2/1/2026,no,,Chrisla,no,,no,no,no,no,0,0,yes,,Titus,PAP/NPFS/ST03963,0,,,10/10/2025 17:48,yes,,no,39,2/1/2023

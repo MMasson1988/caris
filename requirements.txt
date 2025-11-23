@@ -1,0 +1,12 @@
+requests
+pandas
+numpy
+openpyxl
+xlsxwriter
+matplotlib
+seaborn
+plotly
+python-dotenv
+fuzzywuzzy
+python-levenshtein
+datetime

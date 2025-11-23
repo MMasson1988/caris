@@ -1,0 +1,49 @@
+# Requirements.txt compatible Python 3.13
+# Packages essentiels sans contraintes de version strictes
+
+# Data Science & Analysis
+pandas>=2.2.0
+numpy>=1.24.0  # Compatible Python 3.13
+openpyxl>=3.1.0
+xlsxwriter>=3.0.0
+
+# Database
+SQLAlchemy>=2.0.0
+PyMySQL>=1.1.0
+mysql-connector-python>=9.0.0
+
+# Web & API
+requests>=2.32.0
+beautifulsoup4>=4.13.0
+selenium>=4.29.0
+webdriver-manager>=4.0.0
+
+# Environment & Config
+python-dotenv>=1.0.0
+python-decouple>=3.8
+
+# Excel & Office
+# pywin32>=306  # Supprimé temporairement car problématique sur Python 3.13
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.0
+plotly>=6.0.0
+
+# Utils
+faker>=37.0.0
+colorama>=0.4.6
+click>=8.1.0
+
+# Jupyter (optionnel)
+jupyter>=1.1.0
+notebook>=7.0.0
+
+# CommCare API
+# commcare-api>=0.1.0  # Si nécessaire
+
+# Security
+cryptography>=45.0.0
+
+# HTTP clients
+httpx>=0.28.0

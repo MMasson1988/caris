@@ -1,0 +1,845 @@
+---
+title: "APPELS ET VISITES"
+subtitle: "Caris Foundation | Rapport des appels et visites des agents"
+author: "M&E Department"
+date: today
+format:
+  html:
+    theme: flatly
+    css:
+      - styles.css
+    fig-align: center
+    page-layout: article
+    toc: true
+    toc-location: left           
+    toc-depth: 3                
+    number-sections: true
+    self-contained: true
+    df-print: paged
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+<style>
+  /* Applique au titre de niveau 1 à 3 */
+  h2, h3 {
+    color: #003366;
+    border-bottom: 2px solid #0055a5;
+    padding-bottom: 0.3em;
+  }
+
+  /* Applique aux en-têtes de colonne */
+  th {
+    background-color: #003366;
+    color: #fff;
+    text-align: left;
+    padding: 12px;
+  }
+
+  /* Applique aux cellules du tableau */
+  td {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+
+  /* Applique une couleur de fond alternée à une ligne sur deux */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  /* Style pour les cartes ("cards") visuelles */
+  .data-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+
+  .data-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .data-card.primary { border-left: 4px solid #007bff; }
+  .data-card.success { border-left: 4px solid #28a745; }
+  .data-card.info { border-left: 4px solid #17a2b8; }
+  .data-card.warning { border-left: 4px solid #ffc107; }
+  .data-card.secondary { border-left: 4px solid #6c757d; }
+
+  .data-card .value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0.5rem 0;
+  }
+
+  .data-card .subtitle {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .data-card h3 {
+    font-size: 1rem;
+    margin: 0 0 0.5rem 0;
+    border: none;
+    padding: 0;
+  }
+</style>
+
+
+```{python}
+#| label: setup
+#| include: false
+import os
+import re
+import warnings
+import pandas as pd
+import numpy as np
+from datetime import date, timedelta, datetime
+
+from openpyxl.styles import Font, Alignment, PatternFill, Border, Side
+from openpyxl.utils import get_column_letter
+from itables import show
+
+warnings.filterwarnings("ignore")
+
+# Configuration fixe
+START_DATE = pd.to_datetime("2025-10-06")
+END_DATE = pd.to_datetime("2025-10-12")
+TODAY_STR = date.today().strftime("%Y-%m-%d")
+
+os.makedirs("outputs", exist_ok=True)
+
+# Fonctions utilitaires
+def assign_commune(name):
+    if pd.isna(name):
+        return 'Autre'
+    s = str(name)
+    if re.match(r'^1', s):
+        return 'Cap-Haïtien'
+    if re.match(r'^2', s):
+        return 'Port-au-Prince'
+    if re.match(r'^5', s):
+        return 'Port-de-Paix'
+    if re.match(r'^6', s):
+        return 'Gonaïves'
+    return 'Autre'
+
+def transform_to_month_year(df, date_column):
+    df = df.copy()
+    df[date_column] = pd.to_datetime(df[date_column], errors="coerce")
+    df['mois'] = df[date_column].dt.strftime('%B').str.capitalize()
+    df['annee'] = df[date_column].dt.strftime('%Y')
+    return df
+
+def dataframe_for_period(df, date_column, start_date, end_date):
+    df = df.copy()
+    df[date_column] = pd.to_datetime(df[date_column], errors="coerce")
+    df = df[(df[date_column] >= start_date) & (df[date_column] <= end_date)]
+    df['commune'] = df['username'].apply(assign_commune)
+    return df
+
+def create_pivot_table(df, value_col):
+    if df.empty:
+        return pd.DataFrame()
+    pivot = pd.pivot_table(
+        df, values=value_col,
+        index=['mois'], columns=['commune','Trouvé'],
+        aggfunc=lambda x: len(x),
+        margins=True, margins_name='Total'
+    ).fillna(0)
+
+    mois_ordre = ['January','February','March','April','May','June',
+                  'July','August','September','October','November','December']
+    pivot = pivot.reindex(mois_ordre).fillna(0)
+    pivot = pivot[(pivot != 0).any(axis=1)]
+    return pivot
+
+def add_found_percentage(pvt):
+    if pvt.empty:
+        return pvt
+    pvt = pvt.copy()
+    if 'Total' not in pvt.columns.get_level_values(0):
+        pvt['Total'] = pvt.sum(axis=1)
+    if isinstance(pvt.columns, pd.MultiIndex) and 'Oui' in pvt.columns.get_level_values(1):
+        pvt['Total_Trouvé'] = pvt.xs('Oui', level=1, axis=1).sum(axis=1)
+    else:
+        pvt['Total_Trouvé'] = 0
+    pvt['% Trouvé'] = np.where(pvt['Total']>0, pvt['Total_Trouvé']/pvt['Total'], 0)
+    pvt['% Trouvé'] = pvt['% Trouvé'].apply(lambda x: f"{x:.2%}")
+    return pvt
+
+def export_single_sheet_with_blocks(blocks, path, sheet_name="Tableau des Appels et Visites"):
+    with pd.ExcelWriter(path, engine="openpyxl") as writer:
+        start_row = 1
+        for title, df in blocks:
+            pd.DataFrame([title]).to_excel(writer, sheet_name=sheet_name,
+                                           startrow=start_row-1, index=False, header=False)
+            ws = writer.book[sheet_name]
+            ws.merge_cells(start_row=start_row, start_column=1, end_row=start_row, end_column=max(2, df.shape[1]+1))
+            cell = ws.cell(row=start_row, column=1)
+            cell.font = Font(bold=True)
+            cell.alignment = Alignment(horizontal="center", vertical="center")
+            df.to_excel(writer, sheet_name=sheet_name, startrow=start_row, index=True)
+            start_row += len(df) + 6
+```
+
+```{python}
+#| label: load-data
+#| include: false
+# ==============================
+# 1️⃣ Lire le fichier Excel
+# ==============================
+data_cleaned = pd.read_excel("data_cleaned.xlsx", parse_dates=['date'])
+
+# ==============================
+# 2️⃣ Calculer les bornes de la semaine précédente
+# ==============================
+today = date.today()
+
+# Lundi de la semaine actuelle (weekday(): lundi=0)
+monday_current_week = today - timedelta(days=today.weekday())
+
+# Lundi de la semaine précédente
+monday_last_week = monday_current_week - timedelta(days=7)
+
+# Dimanche de la semaine précédente
+sunday_last_week = monday_last_week + timedelta(days=6)
+
+print(f"Semaine précédente : du {monday_last_week} au {sunday_last_week}")
+
+# ==============================
+# 3️⃣ Filtrer les visites de la semaine dernière
+# ==============================
+mask = (data_cleaned['date'].dt.date >= monday_last_week) & (data_cleaned['date'].dt.date <= sunday_last_week)
+data_cleaned = data_cleaned.loc[mask]
+
+# ==============================
+# 4️⃣ Résultat
+# ==============================
+print(f"Nombre de visites retenues : {len(data_cleaned)}")
+print(data_cleaned.head())
+
+```
+
+```{python}
+#| label: calculate-metrics
+#| include: false
+# Calcul des métriques globales
+total_interventions = len(data_cleaned)
+total_trouve = (data_cleaned['Trouvé'] == 'Oui').sum() if 'Trouvé' in data_cleaned.columns else 0
+total_non_trouve = total_interventions - total_trouve
+taux_succes_global = (total_trouve / total_interventions * 100) if total_interventions > 0 else 0
+
+# Calcul des métriques par type d'intervention
+total_appels = data_cleaned[data_cleaned['Type'] == 'Appel'].shape[0] if 'Type' in data_cleaned.columns else 0
+total_visites = data_cleaned[data_cleaned['Type'] == 'Visite'].shape[0] if 'Type' in data_cleaned.columns else 0
+
+# Calcul des métriques par programme
+total_ptme = data_cleaned[data_cleaned['Programme'] == 'PTME'].shape[0] if 'Programme' in data_cleaned.columns else 0
+total_oev = data_cleaned[data_cleaned['Programme'] == 'OEV'].shape[0] if 'Programme' in data_cleaned.columns else 0
+
+# Autres métriques
+nb_communes = data_cleaned['commune'].nunique() if 'commune' in data_cleaned.columns else 0
+nb_agents = data_cleaned['username'].nunique() if 'username' in data_cleaned.columns else 0
+moyenne_par_jour = total_interventions / ((END_DATE - START_DATE).days + 1) if total_interventions > 0 else 0
+
+# Agent avec le plus d'interventions
+if not data_cleaned.empty and 'username' in data_cleaned.columns:
+    top_agent = data_cleaned['username'].value_counts().idxmax() if not data_cleaned['username'].isna().all() else ''
+    top_agent_count = data_cleaned['username'].value_counts().max() if not data_cleaned['username'].isna().all() else 0
+else:
+    top_agent = ''
+    top_agent_count = 0
+
+# Calcul de la période
+nb_jours = (END_DATE - START_DATE).days + 1
+
+# Calcul de la période réelle à partir des données
+if not data_cleaned.empty and 'date' in data_cleaned.columns:
+    actual_start = data_cleaned['date'].min().strftime('%d/%m/%Y') if not data_cleaned['date'].isna().all() else 'N/A'
+    actual_end = data_cleaned['date'].max().strftime('%d/%m/%Y') if not data_cleaned['date'].isna().all() else 'N/A'
+    actual_days = (data_cleaned['date'].max() - data_cleaned['date'].min()).days + 1 if not data_cleaned['date'].isna().all() else 0
+else:
+    actual_start = 'N/A'
+    actual_end = 'N/A'
+    actual_days = 0
+```
+
+# 📊 Tableau de Bord - Indicateurs Clés
+
+## Vue d'Ensemble des Performances
+
+::: {.data-cards-container}
+
+::: {.data-card .primary}
+### Total Interventions
+::: {.value}
+`{python} f"{total_interventions:,}"`
+:::
+::: {.subtitle}
+Appels + Visites
+:::
+:::
+
+::: {.data-card .success}
+### Taux de Succès
+::: {.value}
+`{python} f"{taux_succes_global:.1f}%"`
+:::
+::: {.subtitle}
+`{python} f"{total_trouve:,}"` trouvé(s) sur `{python} f"{total_interventions:,}"`
+:::
+:::
+
+::: {.data-card .info}
+### Interventions Réussies
+::: {.value}
+`{python} f"{total_trouve:,}"`
+:::
+::: {.subtitle}
+Bénéficiaires contactés
+:::
+:::
+
+::: {.data-card .warning}
+### Interventions Non Réussies
+::: {.value}
+`{python} f"{total_non_trouve:,}"`
+:::
+::: {.subtitle}
+Bénéficiaires non trouvés
+:::
+:::
+
+:::
+
+## Répartition par Type d'Intervention
+
+::: {.data-cards-container}
+
+::: {.data-card .secondary}
+### Appels Téléphoniques
+::: {.value}
+`{python} f"{total_appels:,}"`
+:::
+::: {.subtitle}
+`{python} f"{(total_appels/total_interventions*100):.1f}%" if total_interventions > 0 else "0%"`
+:::
+:::
+
+::: {.data-card .secondary}
+### Visites à Domicile
+::: {.value}
+`{python} f"{total_visites:,}"`
+:::
+::: {.subtitle}
+`{python} f"{(total_visites/total_interventions*100):.1f}%" if total_interventions > 0 else "0%"`
+:::
+:::
+
+:::
+
+## Répartition par Programme
+
+::: {.data-cards-container}
+
+::: {.data-card .info}
+### Programme PTME
+::: {.value}
+`{python} f"{total_ptme:,}"`
+:::
+::: {.subtitle}
+Prévention transmission mère-enfant
+:::
+:::
+
+::: {.data-card .info}
+### Programme OEV
+::: {.value}
+`{python} f"{total_oev:,}"`
+:::
+::: {.subtitle}
+Orphelins et enfants vulnérables
+:::
+:::
+
+:::
+
+## Métriques Opérationnelles
+
+::: {.data-cards-container}
+
+::: {.data-card .primary}
+### Communes Couvertes
+::: {.value}
+`{python} f"{nb_communes}"`
+:::
+::: {.subtitle}
+Zones d'intervention
+:::
+:::
+
+::: {.data-card .primary}
+### Agents Actifs
+::: {.value}
+`{python} f"{nb_agents}"`
+:::
+::: {.subtitle}
+Équipe de terrain
+:::
+:::
+
+::: {.data-card .secondary}
+### Moyenne/Jour
+::: {.value}
+`{python} f"{moyenne_par_jour:.1f}"`
+:::
+::: {.subtitle}
+Interventions par jour
+:::
+:::
+
+::: {.data-card .success}
+### Top Agent
+::: {.value}
+`{python} f"{top_agent_count}"`
+:::
+::: {.subtitle}
+`{python} f"{top_agent[:15]}{'...' if len(top_agent) > 15 else ''}" if top_agent else "N/A"`
+:::
+:::
+
+:::
+
+## Période d'Analyse
+
+::: {.data-cards-container}
+
+::: {.data-card .warning}
+### Nombre jours Analyés
+::: {.value}
+`{python} f"{actual_days} jours"`
+:::
+::: {.subtitle}
+`{python} actual_start` - `{python} actual_end`
+:::
+:::
+
+:::
+
+# 📈 Analyses et Visualisations
+
+```{python}
+#| label: prepare-visualizations
+#| include: false
+
+# Préparation des données pour les visualisations
+if not data_cleaned.empty:
+    # Transform dates and create pivot tables
+    data_cleaned = transform_to_month_year(data_cleaned, 'date')
+    
+    # Create pivot tables for different analyses
+    pivot_all = create_pivot_table(data_cleaned, 'formid')
+    pivot_all = add_found_percentage(pivot_all)
+    
+    # Separate by programme
+    data_ptme = data_cleaned[data_cleaned['Programme'] == 'PTME'] if 'Programme' in data_cleaned.columns else pd.DataFrame()
+    data_oev = data_cleaned[data_cleaned['Programme'] == 'OEV'] if 'Programme' in data_cleaned.columns else pd.DataFrame()
+    
+    pivot_ptme = create_pivot_table(data_ptme, 'formid') if not data_ptme.empty else pd.DataFrame()
+    pivot_oev = create_pivot_table(data_oev, 'formid') if not data_oev.empty else pd.DataFrame()
+    
+    pivot_ptme = add_found_percentage(pivot_ptme) if not pivot_ptme.empty else pd.DataFrame()
+    pivot_oev = add_found_percentage(pivot_oev) if not pivot_oev.empty else pd.DataFrame()
+else:
+    pivot_all = pd.DataFrame()
+    pivot_ptme = pd.DataFrame()
+    pivot_oev = pd.DataFrame()
+```
+
+## Tableau Récapitulatif Global
+
+```{python}
+#| label: display-global-table
+if not pivot_all.empty:
+    display(pivot_all.style.format(lambda x: f"{x:.0f}" if isinstance(x, (int, float)) else x).set_caption("Résumé Global des Appels et Visites"))
+else:
+    print("Aucune donnée disponible pour la période sélectionnée")
+```
+
+## Analyses par Programme
+
+### Programme PTME
+
+```{python}
+#| label: display-ptme-table
+if not pivot_ptme.empty:
+    display(pivot_ptme.style.format(lambda x: f"{x:.0f}" if isinstance(x, (int, float)) else x).set_caption("Programme PTME - Appels et Visites"))
+else:
+    print("Aucune donnée PTME pour la période sélectionnée")
+```
+
+### Programme OEV
+
+```{python}
+#| label: display-oev-table
+if not pivot_oev.empty:
+    display(pivot_oev.style.format(lambda x: f"{x:.0f}" if isinstance(x, (int, float)) else x).set_caption("Programme OEV - Appels et Visites"))
+else:
+    print("Aucune donnée OEV pour la période sélectionnée")
+```
+
+## Matrice Programme vs Type d'Intervention
+
+```{python}
+#| label: matrix-programme-type
+if not data_cleaned.empty and 'Programme' in data_cleaned.columns and 'Type' in data_cleaned.columns:
+    # Create cross-tabulation matrix
+    matrix = pd.crosstab(
+        data_cleaned['Programme'], 
+        data_cleaned['Type'], 
+        margins=True, 
+        margins_name='Total'
+    )
+    display(matrix.style.set_caption("Matrice des Interventions par Programme et Type"))
+else:
+    print("Données insuffisantes pour générer la matrice.")
+```
+
+```{python}
+#| label: export-results
+#| include: false
+
+# Export des résultats vers Excel
+try:
+    blocks = []
+    if not pivot_all.empty:
+        blocks.append(("RÉSUMÉ GLOBAL - Appels et Visites", pivot_all))
+    if not pivot_ptme.empty:
+        blocks.append(("PROGRAMME PTME - Appels et Visites", pivot_ptme))
+    if not pivot_oev.empty:
+        blocks.append(("PROGRAMME OEV - Appels et Visites", pivot_oev))
+    
+    if blocks:
+        output_path = f"outputs/rapport_appels_visites_{TODAY_STR}.xlsx"
+        export_single_sheet_with_blocks(blocks, output_path)
+        print(f"✅ Rapport exporté vers: {output_path}")
+    else:
+        print("⚠️ Aucune donnée à exporter")
+except Exception as e:
+    print(f"❌ Erreur lors de l'export: {e}")
+```
+
+---
+
+# 📊 Graphiques
+
+```{python}
+#| label: prepare-graphs
+#| include: false
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Ensure 'date' is datetime and add 'day' column
+data_cleaned['date'] = pd.to_datetime(data_cleaned['date'], errors='coerce')
+data_cleaned['day'] = data_cleaned['date'].dt.date  # e.g., 2025-09-08
+
+# Prepare data for graphs
+if not data_cleaned.empty:
+    # Success rate by day (already in %, format as int)
+    success_rate = data_cleaned.groupby('day')['Trouvé'].apply(lambda x: (x == 'Oui').mean() * 100).reset_index(name='Success Rate (%)')
+    success_rate['Success Rate (%)'] = success_rate['Success Rate (%)'].astype(int)  # Format as integer
+    
+    # Visits by day (convert to % of total visits)
+    visits = data_cleaned[data_cleaned['Type'] == 'Visite'].groupby('day').size().reset_index(name='Visits')
+    total_visits = visits['Visits'].sum()
+    visits['Visits (%)'] = ((visits['Visits'] / total_visits) * 100).astype(int) if total_visits > 0 else 0
+    
+    # Calls by day (convert to % of total calls)
+    calls = data_cleaned[data_cleaned['Type'] == 'Appel'].groupby('day').size().reset_index(name='Calls')
+    total_calls = calls['Calls'].sum()
+    calls['Calls (%)'] = ((calls['Calls'] / total_calls) * 100).astype(int) if total_calls > 0 else 0
+    
+    # Automated period from data (min to max date)
+    if 'date' in data_cleaned.columns:
+        actual_start = data_cleaned['date'].min().strftime('%d/%m/%Y') if not data_cleaned['date'].isna().all() else 'N/A'
+        actual_end = data_cleaned['date'].max().strftime('%d/%m/%Y') if not data_cleaned['date'].isna().all() else 'N/A'
+        actual_days = (data_cleaned['date'].max() - data_cleaned['date'].min()).days + 1 if not data_cleaned['date'].isna().all() else 0
+    else:
+        actual_start = 'N/A'
+        actual_end = 'N/A'
+        actual_days = 0
+else:
+    success_rate = pd.DataFrame()
+    visits = pd.DataFrame()
+    calls = pd.DataFrame()
+    actual_start = 'N/A'
+    actual_end = 'N/A'
+    actual_days = 0
+```
+
+## Taux de Succès par Jours
+
+```{python}
+#| label: plot-success-rate
+if not success_rate.empty:
+    # Configuration générale adaptée pour Quarto
+    sns.set(rc={'figure.figsize': (15, 10)})
+    sns.set_style("whitegrid")
+    sns.set_context("notebook", font_scale=1.5)
+
+    # Trier les données par taux de succès décroissant
+    sorted_data = success_rate.sort_values('Success Rate (%)', ascending=False)
+
+    # Total des interventions
+    total_interventions = len(data_cleaned)
+
+    # Palette viridis adaptée pour web
+    n_colors = len(sorted_data)
+    palette = sns.color_palette("viridis", n_colors=n_colors)
+
+    # Tracé du graphique
+    ax = sns.barplot(
+        y='day',
+        x='Success Rate (%)',
+        data=sorted_data,
+        palette=palette,
+        orient='h'
+    )
+
+    # Titre et labels
+    ax.set_title(f"Taux de Succès par Jour (%)\nTotal interventions : {total_interventions}", fontsize=24, weight='bold')
+    ax.set_xlabel('Pourcentage (%)', fontsize=22)
+    ax.set_ylabel('Jour', fontsize=22)
+    # Retrait de la grille
+    ax.grid(False)
+
+    # Ajout des valeurs sur les barres (formatées en entier)
+    for container in ax.containers:
+        ax.bar_label(container, padding=5, fontsize=26, weight="bold", color='black', fmt='%d%%')
+
+    # Nettoyage des bordures
+    sns.despine()
+
+    # Ajustement
+    plt.tight_layout()
+    plt.show()
+else:
+    print("Aucune donnée disponible pour le taux de succès.")
+```
+
+## Visites et Appels par Jours
+
+```{python}
+#| label: plot-visits-calls
+if not visits.empty and not calls.empty:
+    fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+
+    # Configuration générale adaptée pour Quarto
+    sns.set(rc={'figure.figsize': (15, 10)})
+    sns.set_style("whitegrid")
+    sns.set_context("notebook", font_scale=1.5)
+
+    # Visites (horizontal bar)
+    sorted_visits = visits.sort_values('Visits', ascending=False)
+    total_visites = sorted_visits['Visits'].sum()
+    n_colors_visits = len(sorted_visits)
+    palette_visits = sns.color_palette("viridis", n_colors_visits)
+    sns.barplot(ax=axes[0], y='day', x='Visits', data=sorted_visits, palette=palette_visits, orient='h')
+    axes[0].set_title(f'Nombre de Visites par Jour\nTotal visites : {total_visites}', fontsize=24, weight='bold')
+    axes[0].set_xlabel('Nombre de Visites', fontsize=22)
+    axes[0].set_ylabel('Jour', fontsize=22)
+    axes[0].grid(False)
+    for container in axes[0].containers:
+        axes[0].bar_label(container, padding=5, fontsize=26, weight="bold", color='black')
+    sns.despine(ax=axes[0])
+
+    # Appels (horizontal bar)
+    sorted_calls = calls.sort_values('Calls', ascending=False)
+    total_calls = sorted_calls['Calls'].sum()
+    n_colors_calls = len(sorted_calls)
+    palette_calls = sns.color_palette("viridis", n_colors_calls)
+    sns.barplot(ax=axes[1], y='day', x='Calls', data=sorted_calls, palette=palette_calls, orient='h')
+    axes[1].set_title(f'Nombre d\'Appels par Jour\nTotal appels : {total_calls}', fontsize=24, weight='bold')
+    axes[1].set_xlabel('Nombre d\'Appels', fontsize=22)
+    axes[1].set_ylabel('Jour', fontsize=22)
+    axes[1].grid(False)
+    for container in axes[1].containers:
+        axes[1].bar_label(container, padding=5, fontsize=26, weight="bold", color='black')
+    sns.despine(ax=axes[1])
+
+    plt.tight_layout()
+    plt.show()
+else:
+    print("Aucune donnée disponible pour les visites ou les appels.")
+```
+
+## Visites par Jours
+
+```{python}
+#| label: plot-visits
+if not visits.empty:
+    # Configuration générale adaptée pour Quarto
+    sns.set(rc={'figure.figsize': (15, 10)})
+    sns.set_style("whitegrid")
+    sns.set_context("notebook", font_scale=1.5)
+
+    # Trier les données par % visites décroissant
+    sorted_data = visits.sort_values('Visits (%)', ascending=False)
+
+    # Total des visites
+    total_visites = visits['Visits'].sum()
+
+    # Palette viridis adaptée pour web
+    n_colors = len(sorted_data)
+    palette = sns.color_palette("viridis", n_colors=n_colors)
+
+    # Tracé du graphique
+    ax = sns.barplot(
+        y='day',
+        x='Visits (%)',
+        data=sorted_data,
+        palette=palette,
+        orient='h'
+    )
+
+    # Titre et labels
+    ax.set_title(f"Pourcentage de Visites par Jour\nTotal visites : {total_visites}", fontsize=24, weight='bold')
+    ax.set_xlabel('Pourcentage (%)', fontsize=22)
+    ax.set_ylabel('Jour', fontsize=22)
+    # Retrait de la grille
+    ax.grid(False)
+
+    # Ajout des valeurs sur les barres (formatées en entier %)
+    for container in ax.containers:
+        ax.bar_label(container, padding=5, fontsize=26, weight="bold", color='black', fmt='%d%%')
+
+    # Nettoyage des bordures
+    sns.despine()
+
+    # Ajustement
+    plt.tight_layout()
+    plt.show()
+else:
+    print("Aucune donnée de visites disponible.")
+```
+
+## Appels par Jours
+
+```{python}
+#| label: plot-calls
+if not calls.empty:
+    # Configuration générale adaptée pour Quarto
+    sns.set(rc={'figure.figsize': (15, 10)})
+    sns.set_style("whitegrid")
+    sns.set_context("notebook", font_scale=1.5)
+
+    # Trier les données par appels décroissant
+    sorted_data = calls.sort_values('Calls', ascending=False)
+
+    # Total des appels
+    total_calls = sorted_data['Calls'].sum()
+
+    # Palette viridis adaptée pour web
+    n_colors = len(sorted_data)
+    palette = sns.color_palette("viridis", n_colors=n_colors)
+
+    # Tracé du graphique
+    ax = sns.barplot(
+        y='day',
+        x='Calls',
+        data=sorted_data,
+        palette=palette,
+        orient='h'
+    )
+
+    # Titre et labels
+    ax.set_title(f"Nombre d'Appels par Jour\nTotal appels : {total_calls}", fontsize=24, weight='bold')
+    ax.set_xlabel("Nombre d'Appels", fontsize=22)
+    ax.set_ylabel('Jour', fontsize=22)
+    # Retrait de la grille
+    ax.grid(False)
+
+    # Ajout des valeurs sur les barres
+    for container in ax.containers:
+        ax.bar_label(container, padding=5, fontsize=26, weight="bold", color='black')
+
+    # Nettoyage des bordures
+    sns.despine()
+
+    # Ajustement
+    plt.tight_layout()
+    plt.show()
+else:
+    print("Aucune donnée d'appels disponible.")
+```
+
+## Performance par Agent (Taux de Succès)
+
+```{python}
+#| label: plot-performance-by-user
+if not data_cleaned.empty and 'username' in data_cleaned.columns and 'Trouvé' in data_cleaned.columns:
+    # Calculate success rate by username (format as int %)
+    success_by_user = data_cleaned.groupby('username')['Trouvé'].apply(lambda x: (x == 'Oui').mean() * 100).astype(int).reset_index(name='Success Rate (%)')
+    success_by_user = success_by_user.sort_values('Success Rate (%)', ascending=False)
+    
+    # Configuration générale adaptée pour Quarto
+    sns.set(rc={'figure.figsize': (15, 10)})
+    sns.set_style("whitegrid")
+    sns.set_context("notebook", font_scale=1.5)
+
+    # Total des agents
+    total_agents = len(success_by_user)
+
+    # Palette viridis adaptée pour web
+    n_colors = len(success_by_user)
+    palette = sns.color_palette("viridis", n_colors=n_colors)
+
+    # Tracé du graphique
+    ax = sns.barplot(
+        y='username',
+        x='Success Rate (%)',
+        data=success_by_user,
+        palette=palette,
+        orient='h'
+    )
+
+    # Titre et labels
+    ax.set_title(f"Taux de Succès par Agent (%)\nTotal agents : {total_agents}", fontsize=24, weight='bold')
+    ax.set_xlabel('Pourcentage (%)', fontsize=22)
+    ax.set_ylabel('Agent (Username)', fontsize=22)
+    # Retrait de la grille
+    ax.grid(False)
+
+    # Ajout des valeurs sur les barres (formatées en entier %)
+    for container in ax.containers:
+        ax.bar_label(container, padding=5, fontsize=26, weight="bold", color='black', fmt='%d%%')
+
+    # Nettoyage des bordures
+    sns.despine()
+
+    # Ajustement
+    plt.tight_layout()
+    plt.show()
+else:
+    print("Données insuffisantes pour générer le graphique de performance par agent.")
+```
+
+## Liste des Interventions (Téléchargeable)
+
+```{python}
+#| label: display-data-list
+if not data_cleaned.empty:
+    show(data_cleaned, buttons=["copy", "csv", "excel", "pdf"], dom="Bfrtip", paging=True, pageLength=10)
+else:
+    print("Aucune donnée disponible.")
+```
+
+

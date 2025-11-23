@@ -1,0 +1,98 @@
+{
+  "per_file": {
+    "Caris Health Agent - Enfant - APPELS OEV": {
+      "status": "downloaded",
+      "size_mb": 5.605358123779297,
+      "seconds": 218.5,
+      "mbps": 0.026
+    },
+    "Caris Health Agent - Enfant - Ration et autres visites": {
+      "status": "downloaded",
+      "size_mb": 4.92588996887207,
+      "seconds": 212.1,
+      "mbps": 0.023
+    },
+    "Caris Health Agent - Enfant - Visite Enfant": {
+      "status": "downloaded",
+      "size_mb": 24.27763271331787,
+      "seconds": 349.9,
+      "mbps": 0.069
+    },
+    "Caris Health Agent - Femme PMTE  - Ration & Autres Visites": {
+      "status": "downloaded",
+      "size_mb": 9.709066390991211,
+      "seconds": 289.7,
+      "mbps": 0.034
+    },
+    "Ajout de menages ptme [officiel]": {
+      "status": "downloaded",
+      "size_mb": 9.372056007385254,
+      "seconds": 252.7,
+      "mbps": 0.037
+    },
+    "Household mother": {
+      "status": "downloaded",
+      "size_mb": 10.078299522399902,
+      "seconds": 300.3,
+      "mbps": 0.034
+    },
+    "PTME WITH PATIENT CODE": {
+      "status": "downloaded",
+      "size_mb": 0.3992433547973633,
+      "seconds": 153.9,
+      "mbps": 0.003
+    },
+    "All_child_PatientCode_CaseID": {
+      "status": "downloaded",
+      "size_mb": 1.3127355575561523,
+      "seconds": 163.0,
+      "mbps": 0.008
+    },
+    "household_child": {
+      "status": "downloaded",
+      "size_mb": 3.8578720092773438,
+      "seconds": 185.9,
+      "mbps": 0.021
+    },
+    "MUSO - Members - PPI Questionnaires": {
+      "status": "downloaded",
+      "size_mb": 3.018503189086914,
+      "seconds": 164.8,
+      "mbps": 0.018
+    },
+    "muso_beneficiaries": {
+      "status": "downloaded",
+      "size_mb": 23.421195030212402,
+      "seconds": 924.6,
+      "mbps": 0.025
+    },
+    "muso_groupes": {
+      "status": "downloaded",
+      "size_mb": 1.013169288635254,
+      "seconds": 152.0,
+      "mbps": 0.007
+    },
+    "muso_household_2022": {
+      "status": "downloaded",
+      "size_mb": 6.961536407470703,
+      "seconds": 342.2,
+      "mbps": 0.02
+    },
+    "household_nutrition": {
+      "status": "downloaded",
+      "size_mb": 0.48415279388427734,
+      "seconds": 148.7,
+      "mbps": 0.003
+    }
+  },
+  "run_summary": {
+    "expected": 14,
+    "present_today": 14,
+    "failed_count": 0,
+    "failed_list": [],
+    "total_mb": 104.44,
+    "total_time_sec": 3858.3,
+    "avg_mbps": 0.027,
+    "run_date": "2025-11-05T13:43:05"
+  }
+}

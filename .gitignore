@@ -1,0 +1,47 @@
+/.quarto/
+.Rproj.user
+
+**/*.quarto_ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
+renv/cellar/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Quarto
+_site/
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# Logs
+*.log
+.git/gc.log
